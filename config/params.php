@@ -22,5 +22,7 @@ return [
     'logo_img_height' => 200,
     'room_img_width' => 1270,
     'room_img_height' => 550,
+    'gallery_img_width' => 1270,
+    'gallery_img_height' => 550,
 
 ];

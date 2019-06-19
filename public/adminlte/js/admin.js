@@ -194,7 +194,6 @@ $(".edit-form-wrap").on( "click", ".remove_logo_image", function() {
             id:id,
         },
         success:function(data) {
-            console.log(data);
             document.location.reload(true);
             // if(data !== 'true'){
             //     alert('Error!')
@@ -202,6 +201,83 @@ $(".edit-form-wrap").on( "click", ".remove_logo_image", function() {
         }
     });
 });
+
+
+
+
+$(document).ready(function() {
+
+    if ($('div').is('.gallery-upload')) {
+        var url = $('#upload-gallery').data('url');
+        var galleryContainer = $('#gallery-container');
+
+        var myDropzoneGallery = new Dropzone("#upload-gallery", {
+            url: url,
+            maxFiles: 10,
+            autoProcessQueue: true,
+            addRemoveLinks: true,
+            acceptedFiles:".png,.jpg,.jpeg",
+            maxFilesize: 5, //mb
+            dictMaxFilesExceeded: "Достигнут лимит на количество загруженных картинок. Максимальное количество загрузки  {{maxFiles}} шт.",
+            dictDefaultMessage: '<div class="dz-message">Нажмите здесь или перетащите сюда файлы для загрузки</div>',
+            // dictRemoveFile: '<div class="remove-link-dropzone-image" onclick="removeRoomFile();">Удалить фото</div>',
+            init: function () {
+                $(this.element).html(this.options.dictDefaultMessage);
+
+
+                // var dzClosure = this; // Makes sure that 'this' is understood inside the functions below.
+                //
+                // // for Dropzone to process the queue (instead of default form behavior):
+
+                //
+                //
+                //send all the form data along with the files:
+                this.on("sending", function(data, xhr, formData) {
+                    formData.append("id", jQuery("#room_id").val());
+                });
+
+
+            },
+            success: function (file, response) {
+                galleryContainer.append(response);
+            },
+            complete: function (file) {
+                this.removeFile(file);
+            },
+
+        });
+
+    }
+});
+
+
+
+
+$(".gallery-container").on( "click", ".remove_gallery_image", function() {
+    var name = $(this).data('name');
+    var id = $(this).data('id');
+    var url =  $(this).data('url');
+    var galleryItemBlock = $(this).closest('.gallery-item');
+
+    $.ajax({
+        url: url,
+        method:"POST",
+        data:{
+            name:name,
+            id:id,
+        },
+        success:function(data) {
+            console.log(data);
+            // document.location.reload(true);
+            if(data !== 'true'){
+                alert('Error!')
+            }
+            galleryItemBlock.remove();
+        }
+    });
+});
+
+
 
 
 // alert before delete item

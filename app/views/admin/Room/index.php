@@ -28,7 +28,7 @@ use app\models\admin\Room;
                         <table class="table table-bordered table-striped table-hover">
                             <thead>
                                 <tr>
-                                    <th>Название</th>
+                                    <th>Секция</th>
                                     <th>Этаж</th>
                                     <th>Название компании</th>
                                     <th>Статус</th>

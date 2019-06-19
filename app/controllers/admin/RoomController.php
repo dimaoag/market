@@ -43,27 +43,6 @@ class RoomController extends AdminController {
 
 
 
-    public function addAction()
-    {
-        if (!empty($_POST)){
-            $employee = new Employee();
-            $data = $_POST;
-            $data['status'] = Employee::STATUS_ACTIVE;
-            $employee->load($data);
-            $employee->getImg();
-            if (!$employee->validate($data)){
-                $employee->getErrors();
-                redirect();
-            }
-            if ($employee->save('employee')){
-                $_SESSION['success'] = 'Данние добавлены!';
-            }
-            redirect(ADMIN .'/employee');
-        }
-        $this->setMeta('Добавить нового сутрудника');
-    }
-
-
 
     public function editAction()
     {
@@ -86,8 +65,10 @@ class RoomController extends AdminController {
         }
         $id = (int)$this->getRequestId();
         $room = \R::findOne('room', 'id = ?', [$id]);
+        $gallery = \R::find('gallery', 'room_id = ? ', [$room->id]);
+
         $this->setMeta('Изменить  ' . $room->name);
-        $this->setData(compact('room'));
+        $this->setData(compact('room', 'gallery'));
     }
 
 
@@ -151,8 +132,8 @@ class RoomController extends AdminController {
             die();
         }
 
-        $employee  = \R::find( 'room', ' id = ? AND image = ?', [$id, $name]);
-        if (!$employee){
+        $room  = \R::find( 'room', ' id = ? AND image = ?', [$id, $name]);
+        if (!$room){
             echo json_encode($res);
             die();
         }
@@ -178,8 +159,8 @@ class RoomController extends AdminController {
             die();
         }
 
-        $employee  = \R::find( 'room', ' id = ? AND logo = ?', [$id, $name]);
-        if (!$employee){
+        $room  = \R::find( 'room', ' id = ? AND logo = ?', [$id, $name]);
+        if (!$room){
             echo json_encode($res);
             die();
         }
@@ -194,6 +175,48 @@ class RoomController extends AdminController {
     }
 
 
+
+
+    public function uploadGalleryAction()
+    {
+        /** @var $room Room */
+        $wmax = App::$app->getProperty('gallery_img_width');
+        $hmax = App::$app->getProperty('gallery_img_height');
+        $name = 'file';
+
+        $res = false;
+        $id = isset($_POST['id']) ? (int)$_POST['id'] : null;
+        $room = \R::findOne('room', 'id = ?', [$id]);
+
+        if (!$id || !$room || !$_FILES) {
+            echo json_encode($res);
+            die();
+        }
+
+        Room::uploadGalleryImg($room->id, $name, $wmax, $hmax);
+        die();
+    }
+
+
+
+    public function deleteGalleryImageAction(){
+
+        $res = false;
+        $galleryItemId = isset($_POST['id']) ? (int)$_POST['id'] : null;
+        $imageName = isset($_POST['name']) ? htmlspecialchars($_POST['name']) : null;
+        $galleryItem = \R::findOne('gallery', 'id = ? AND image = ?', [$galleryItemId, $imageName]);
+
+        if (!$galleryItemId || !$imageName || !$galleryItem) {
+            echo json_encode($res);
+            die();
+        }
+
+        \R::trash($galleryItem);
+        @unlink(WWW . '/upload/gallery/'. $imageName);
+        $res = true;
+        echo  json_encode($res);
+        die();
+    }
 
 
 

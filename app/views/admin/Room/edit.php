@@ -5,6 +5,7 @@ use site\App;
 
 
 /** @var $room Room */
+/** @var $gallery array */
 ?>
 
 
@@ -56,8 +57,8 @@ use site\App;
                                 <?php endif; ?>
 
                                 <div class="form-group has-feedback">
-                                    <label for="name">Название</label>
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Название"
+                                    <label for="name">Секция</label>
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Секция"
                                            data-error="Minimum of 2 chars" data-minlength="3" maxlength="255"
                                            value="<?= $room->name ?>"
                                            required>
@@ -119,7 +120,7 @@ use site\App;
                                     </select>
                                 </div>
                                 <div class="clearfix"></div>
-                                <input type="hidden" name="id" value="<?=$room->id;?>">
+                                <input type="hidden" name="id" id="room_id" value="<?=$room->id;?>">
                                 <input type="hidden" name="floor" value="<?=$room->floor;?>">
                                 <div class="form-group">
                                     <button type="submit" class="btn btn-block btn-success">Сохранить</button>
@@ -132,6 +133,37 @@ use site\App;
                 <!-- /.box-body -->
             </div>
             <!-- /.box -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <div class="box-body">
+
+                    <div class=" file-upload-wrap gallery-upload">
+                        <p><b>Галерея c фото</b>
+                            <small> рекомендованные размеры: (ширина - <?= App::$app->getProperty('gallery_img_width') ?>px; высота - <?= App::$app->getProperty('gallery_img_height') ?>px; ) </small>
+                        </p>
+                        <div class="upload" id="upload-gallery" data-url="<?=ADMIN?>/room/upload-gallery">
+
+                        </div>
+                    </div>
+
+                    <div class="gallery-container" id="gallery-container">
+                        <?php if (!empty($gallery)): ?>
+                            <?php foreach ($gallery as $galleryItem): ?>
+                                <div class="col-md-3 gallery-item">
+                                    <a href="<?= PATH ?>/upload/gallery/<?= $galleryItem['image'] ?>" target="blank">
+                                        <img src="<?= PATH ?>/upload/gallery/<?= $galleryItem['image'] ?>" class="img-responsive" alt="image"/>
+                                    </a>
+                                    <button type="button" class="btn btn-link remove_gallery_image" data-url="<?= ADMIN ?>/room/delete-gallery-image" data-name="<?= $galleryItem['image'] ?>" data-id="<?= $galleryItem['id'] ?>">Удалить</button>
+                                </div>
+                            <?php endforeach; ?>
+                        <?php endif; ?>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 </section>

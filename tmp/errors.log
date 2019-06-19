@@ -1942,3 +1942,63 @@
 [2019-06-19 09:27:05] Text error: Action app\controllers\admin\RoomController::removeRoomImageFileAction not found | File: /var/www/market/vendor/site/core/Router.php | Line: 51 
         
 ====================='=
+[2019-06-19 13:09:14] Text error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'room_id' at row 1 | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:10:23] Text error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '7bc91b0b77edb159d3fce8d7707f45d7.jpg')' at line 1 | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:12:51] Text error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' df252044cf4d8a345141a566f2c29730.jpg)' at line 1 | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:13:51] Text error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' cf17450642b6fb0a2eab086adde91abc.jpg)' at line 1 | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:17:09] Text error: Class 'app\models\admin\R' not found | File: /var/www/market/app/models/admin/Room.php | Line: 122 
+        
+====================='=
+[2019-06-19 13:17:45] Text error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'room_id' cannot be null | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:18:15] Text error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'room_id' cannot be null | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:19:07] Text error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'room_id' cannot be null | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:22:58] Text error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' "9821688efd5544c1471c8354b52ce7aa.jpg")' at line 1 | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:23:46] Text error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' "2b79f91f5686785d7d95de79556c55f0.jpg")' at line 1 | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:28:11] Text error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 53c71ebce6a718190f9f455526743313.jpg)' at line 1 | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:28:54] Text error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '9f2770a3177fc486b14832e675368678.png')' at line 1 | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:29:55] Text error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'room_id' cannot be null | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:33:40] Text error: Class 'app\models\admin\R' not found | File: /var/www/market/app/models/admin/Room.php | Line: 120 
+        
+====================='=
+[2019-06-19 13:33:52] Text error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'room_id' cannot be null | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:35:00] Text error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'room_id' cannot be null | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:54:50] Text error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'room_id' at row 1 | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:57:21] Text error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'room_id' at row 1 | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 13:58:05] Text error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`market`.`gallery`, CONSTRAINT `gallery_ibfk_1` FOREIGN KEY (`room_id`) REFERENCES `room` (`id`) ON DELETE CASCADE) | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 14:27:59] Text error: Class 'app\controllers\admin\R' not found | File: /var/www/market/app/controllers/admin/RoomController.php | Line: 68 
+        
+====================='=

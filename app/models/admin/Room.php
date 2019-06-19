@@ -94,6 +94,40 @@ class Room extends AppModel {
     }
 
 
+
+    public static function uploadGalleryImg($room_id ,$name, $wmax, $hmax){
+        $uploaddir = WWW . '/upload/gallery/';
+        $ext = strtolower(preg_replace("#.+\.([a-z]+)$#i", "$1", $_FILES[$name]['name'])); // расширение картинки
+        $types = array("image/gif", "image/png", "image/jpeg", "image/jpeg", "image/x-png"); // массив допустимых расширений
+        if ($_FILES[$name]['size'] > 5242880){
+            $res = array("error" => "Error! Max size of file - 5 Мб!");
+            exit(json_encode($res));
+        }
+        if ($_FILES[$name]['error']){
+            $res = array("error" => "Error!. Maybe file's size very big!");
+            exit(json_encode($res));
+        }
+        if (!in_array($_FILES[$name]['type'], $types)){
+            $res = array("error" => "Enable extensions are:  .gif, .jpg, .png");
+            exit(json_encode($res));
+        }
+        $new_name = md5(time()).".$ext";
+        $uploadfile = $uploaddir.$new_name;
+
+        if(@move_uploaded_file($_FILES[$name]['tmp_name'], $uploadfile)){
+
+            \R::exec("INSERT INTO gallery (room_id, image) VALUES ('". (int)$room_id ."','". $new_name ."')");
+            $id = \R::getInsertID();
+            self::resize($uploadfile, $uploadfile, $wmax, $hmax, $ext);
+            $res = self::getOut($new_name, $id);
+            unset($_FILES[$name]);
+            exit($res);
+        }
+        die();
+    }
+
+
+
     /**
      * @param string $target путь к оригинальному файлу
      * @param string $dest путь сохранения обработанного файла
@@ -175,6 +209,21 @@ class Room extends AppModel {
     public static function getFloorName($floor)
     {
         return self::getFloors()[$floor];
+    }
+
+
+    public static function getOut($fileName, $id)
+    {
+        $out = '
+           <div class="col-md-3 gallery-item">
+                <a href="'. PATH .'/upload/gallery/'. $fileName .'" target="blank">
+                    <img src="'. PATH .'/upload/gallery/'. $fileName .'" class="img-responsive" alt="image"/>
+                </a>
+                <button type="button" class="btn btn-link remove_gallery_image" data-url="'.ADMIN.'/room/delete-gallery-image" data-name="'.$fileName.'" data-id="'. $id .'">Удалить</button>
+           </div>
+        ';
+
+        return $out;
     }
 
 
