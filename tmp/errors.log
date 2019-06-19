@@ -1,0 +1,1923 @@
+[2019-04-01 12:11:19] Text error: Don't connection to db | File: /var/www/childrens_camp/vendor/site/core/Db.php | Line: 15 
+        
+====================='=
+[2019-04-01 12:13:15] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'childrens.menu' doesn't exist | File: /var/www/childrens_camp/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-01 12:23:24] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 12:23:24] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 12:24:03] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 12:24:03] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 12:25:43] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 12:25:43] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 12:25:46] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 12:25:46] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:05:55] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:07:43] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:08:14] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:09:07] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:20:26] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:20:54] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:21:56] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:22:23] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:24:09] Text error: Controller app\controllers\FsdfsdController not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-01 14:24:16] Text error: Controller app\controllers\admin\SfdsController not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-01 14:28:37] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:28:41] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:35:32] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:35:40] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:35:45] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:36:07] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:36:09] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:36:12] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:36:19] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:36:44] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:36:47] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'childrens.category' doesn't exist | File: /var/www/childrens_camp/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-01 14:36:48] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:36:49] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'childrens.menu' doesn't exist | File: /var/www/childrens_camp/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-01 14:36:51] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:36:53] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:36:55] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:38:00] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:38:02] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-01 14:38:09] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 06:20:03] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 06:20:06] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 06:25:15] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 06:36:55] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 06:37:01] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'childrens.carousel' doesn't exist | File: /var/www/childrens_camp/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-02 06:37:06] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 06:37:47] Text error: Class 'mery\libs\Pagination' not found | File: /var/www/childrens_camp/app/controllers/admin/ReviewController.php | Line: 14 
+        
+====================='=
+[2019-04-02 06:37:49] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 06:37:53] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 06:38:02] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 06:38:37] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 06:39:13] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'childrens.category' doesn't exist | File: /var/www/childrens_camp/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-02 06:39:16] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 06:39:57] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 06:40:05] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 06:41:06] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 06:41:09] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 06:41:10] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 06:41:13] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 06:41:16] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'childrens.menu' doesn't exist | File: /var/www/childrens_camp/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-02 06:41:19] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 06:42:28] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 06:42:45] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 06:47:40] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 06:48:49] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 06:53:35] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Gallery/index.php | Line: 30 
+        
+====================='=
+[2019-04-02 06:53:49] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Gallery/index.php | Line: 30 
+        
+====================='=
+[2019-04-02 06:54:03] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Gallery/index.php | Line: 30 
+        
+====================='=
+[2019-04-02 06:55:55] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Gallery/index.php | Line: 30 
+        
+====================='=
+[2019-04-02 06:57:28] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Gallery/index.php | Line: 30 
+        
+====================='=
+[2019-04-02 06:57:51] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Gallery/index.php | Line: 30 
+        
+====================='=
+[2019-04-02 06:57:52] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Gallery/index.php | Line: 30 
+        
+====================='=
+[2019-04-02 06:57:53] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Gallery/index.php | Line: 30 
+        
+====================='=
+[2019-04-02 06:57:53] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Gallery/index.php | Line: 30 
+        
+====================='=
+[2019-04-02 06:57:54] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Gallery/index.php | Line: 30 
+        
+====================='=
+[2019-04-02 06:57:55] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Gallery/index.php | Line: 30 
+        
+====================='=
+[2019-04-02 06:58:24] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 06:58:30] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 06:58:54] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 06:59:18] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 06:59:58] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 07:06:51] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 07:07:27] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 07:10:20] Text error: Action app\controllers\admin\GalleryController::uploadAction not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 51 
+        
+====================='=
+[2019-04-02 07:10:20] Text error: Action app\controllers\admin\GalleryController::uploadAction not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 51 
+        
+====================='=
+[2019-04-02 07:14:27] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 07:15:24] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 07:25:23] Text error: Action app\controllers\admin\GalleryController::uploadAction not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 51 
+        
+====================='=
+[2019-04-02 07:43:08] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 07:43:08] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 07:43:08] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 07:47:56] Text error: Action app\controllers\admin\GalleryController::uploadAction not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 51 
+        
+====================='=
+[2019-04-02 09:27:22] Text error: View /var/www/childrens_camp/app/views/admin/Gallery/delete.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-02 09:28:42] Text error: View /var/www/childrens_camp/app/views/admin/Gallery/delete.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-02 09:29:14] Text error: View /var/www/childrens_camp/app/views/admin/Gallery/delete.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-02 09:30:31] Text error: View /var/www/childrens_camp/app/views/admin/Gallery/delete.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-02 09:59:36] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 10:11:54] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 12:49:47] Text error: View /var/www/childrens_camp/app/views/admin/Tour/index.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-02 13:33:09] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Tour/edit.php | Line: 87 
+        
+====================='=
+[2019-04-02 13:33:29] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Tour/edit.php | Line: 87 
+        
+====================='=
+[2019-04-02 13:33:36] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Tour/edit.php | Line: 87 
+        
+====================='=
+[2019-04-02 13:33:51] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Tour/edit.php | Line: 87 
+        
+====================='=
+[2019-04-02 13:34:17] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Tour/edit.php | Line: 87 
+        
+====================='=
+[2019-04-02 13:34:24] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Tour/edit.php | Line: 87 
+        
+====================='=
+[2019-04-02 13:34:35] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Tour/edit.php | Line: 87 
+        
+====================='=
+[2019-04-02 13:34:41] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Tour/edit.php | Line: 87 
+        
+====================='=
+[2019-04-02 13:35:57] Text error: Class 'mery\App' not found | File: /var/www/childrens_camp/app/views/admin/Tour/edit.php | Line: 141 
+        
+====================='=
+[2019-04-02 13:41:49] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 13:43:14] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 13:44:06] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 13:44:15] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 13:45:45] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 13:46:12] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 13:47:15] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 13:48:10] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 13:48:19] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 13:48:24] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 13:49:07] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 13:52:48] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 13:53:09] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 13:53:12] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 13:53:21] Text error: Page not found | File: /var/www/childrens_camp/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-02 14:36:05] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'childrens.course_order' doesn't exist | File: /var/www/childrens_camp/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-02 14:49:25] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-02 14:49:25] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 06:30:16] Text error: Access to undeclared static property: RedBeanPHP\R::$this | File: /var/www/childrens_camp/app/controllers/MainController.php | Line: 17 
+        
+====================='=
+[2019-04-04 06:35:57] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 06:35:57] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 06:36:01] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 06:36:02] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 06:37:22] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 06:37:22] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 06:37:22] Text error: Controller app\controllers\LoadGalleryController not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-04 06:38:23] Text error: Controller app\controllers\LoadGalleryController not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-04 06:38:40] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 06:38:40] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 06:38:40] Text error: Controller app\controllers\LoadGalleryController not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-04 06:39:10] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 06:39:10] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 06:52:15] Text error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL   -- keep-cache' at line 1 | File: /var/www/childrens_camp/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-04 07:16:54] Text error: syntax error, unexpected '}', expecting ';' | File: /var/www/childrens_camp/app/models/admin/Gallery.php | Line: 124 
+        
+====================='=
+[2019-04-04 07:22:30] Text error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OFFSET 0 LIMIT 3  -- keep-cache' at line 1 | File: /var/www/childrens_camp/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-04 07:35:16] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 07:35:16] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 07:36:32] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 07:36:32] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 07:37:09] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 07:37:09] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 07:39:01] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 07:39:01] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 07:59:53] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 07:59:53] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:02:28] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:02:28] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:12:58] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:12:58] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:25:55] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:25:55] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:26:39] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:26:39] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:27:31] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:27:31] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:28:27] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:28:27] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:30:36] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:30:37] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:31:47] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:31:47] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:42:41] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:42:41] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:42:49] Text error: View /var/www/childrens_camp/app/views//Main/load-gallery.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-04 08:42:52] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:42:52] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:43:01] Text error: View /var/www/childrens_camp/app/views//Main/load-gallery.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-04 08:43:03] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:43:04] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:47:57] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:47:58] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:48:17] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:48:18] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:49:02] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:49:03] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:49:26] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:49:26] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:49:55] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:49:56] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:50:33] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:50:34] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:50:58] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:50:58] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:52:02] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:52:02] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:52:08] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:52:08] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:53:54] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:53:55] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:54:33] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:54:34] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:55:36] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:55:37] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:55:55] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:55:55] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:57:47] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:57:47] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:58:19] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 08:58:19] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:10:21] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:10:21] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:13:04] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:13:05] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:15:17] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:15:17] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:15:39] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:15:39] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:16:10] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:16:10] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:17:40] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:17:40] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:17:49] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:17:49] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:18:15] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:18:15] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:18:42] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:18:42] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:18:53] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:18:53] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:20:07] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:20:07] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:21:03] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:21:03] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:21:28] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:21:29] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:22:14] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:22:14] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:22:32] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:22:32] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:23:52] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:23:53] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:24:39] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:24:40] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:26:04] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:26:05] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:27:19] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:27:20] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:29:30] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:29:31] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:36:18] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:36:18] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:39:10] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:39:10] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:51:37] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:51:38] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:51:49] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:51:50] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:52:07] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:52:07] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:54:30] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:54:30] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:55:02] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:55:02] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:55:50] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:55:50] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:56:13] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 09:56:13] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 10:45:54] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 10:45:54] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 10:46:42] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 10:46:43] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 10:57:59] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 10:57:59] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:21:11] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:21:12] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:21:23] Text error: Invalid type: tour_order | File: /var/www/childrens_camp/vendor/gabordemooij/redbean/RedBeanPHP/Util/DispenseHelper.php | Line: 77 
+        
+====================='=
+[2019-04-04 11:22:13] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:22:13] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:24:10] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:24:11] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:24:52] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:24:53] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:25:34] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:25:34] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:25:57] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:25:57] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:26:59] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:26:59] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:27:05] Text error: View /var/www/childrens_camp/app/views//Main/create-order.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-04 11:27:56] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:27:56] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:28:30] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:28:31] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:28:35] Text error: View /var/www/childrens_camp/app/views//Main/create-order.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-04 11:29:04] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:29:04] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:44:50] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:44:51] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:44:56] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:44:56] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:45:40] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:45:40] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:47:27] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:47:28] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:47:59] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:47:59] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:48:23] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:48:23] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:50:50] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:50:50] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:51:05] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:51:05] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:51:27] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:51:27] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:52:03] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:52:03] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:52:54] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:52:55] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:53:23] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:53:23] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:53:43] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:53:44] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:53:53] Text error: View /var/www/childrens_camp/app/views//Main/create-order.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-04 11:55:52] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:55:52] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:56:34] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:56:34] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:56:38] Text error: View /var/www/childrens_camp/app/views//Main/create-order.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-04 11:57:30] Text error: View /var/www/childrens_camp/app/views//Main/create-order.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-04 11:57:37] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:57:37] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:58:05] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:58:05] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:58:09] Text error: View /var/www/childrens_camp/app/views//Main/create-order.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-04 11:59:25] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:59:25] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:59:39] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 11:59:39] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 12:00:44] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 12:00:44] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 12:05:53] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 12:05:53] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 12:06:11] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 12:06:11] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 12:06:57] Text error: View /var/www/childrens_camp/app/views//Main/create-order.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-04 12:07:12] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 12:07:12] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 12:37:12] Text error: View /var/www/childrens_camp/app/views//Main/create-order.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-04 12:38:16] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 12:38:16] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 12:46:30] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 12:46:30] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 12:51:40] Text error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'date_start' in 'order clause' | File: /var/www/childrens_camp/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-04 13:03:39] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:03:39] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:04:48] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:04:49] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:05:48] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:05:48] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:08:04] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:08:05] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:33:37] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:33:37] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:39:15] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:39:16] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:40:44] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:40:44] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:42:47] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:42:47] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:42:58] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:42:58] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:49:13] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:49:13] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:50:20] Text error: View /var/www/childrens_camp/app/views//Main/call.php not found | File: /var/www/childrens_camp/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-04 13:50:59] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:50:59] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:51:37] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:51:37] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:54:08] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:54:08] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:54:23] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:54:24] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:54:39] Text error: Action app\controllers\MainController::questionAction not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 51 
+        
+====================='=
+[2019-04-04 13:54:43] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:54:43] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:55:03] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 13:55:03] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 14:02:28] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 14:02:28] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 14:03:13] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 14:03:13] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 14:04:06] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 14:04:06] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 14:13:06] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 14:13:06] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 14:13:45] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-04 14:13:45] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-05 07:14:07] Text error: Connection to tcp://smtp.ukr.net:2525 Timed Out | File: /var/www/childrens_camp/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php | Line: 473 
+        
+====================='=
+[2019-04-05 07:15:15] Text error: Connection to tcp://smtp.ukr.net:465 Timed Out | File: /var/www/childrens_camp/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php | Line: 473 
+        
+====================='=
+[2019-04-05 13:12:51] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-05 13:12:51] Text error: Page not found | File: /var/www/childrens_camp/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-08 09:43:15] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-08 13:39:33] Text error: Controller app\controllers\admin\DocumentController not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-08 13:40:34] Text error: Controller app\controllers\admin\DocumentController not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-08 13:40:44] Text error: Controller app\controllers\admin\DocumentController not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-08 13:40:50] Text error: Controller app\controllers\admin\DocumentController not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-08 13:40:55] Text error: Too few arguments to function app\controllers\admin\DocController::indexAction(), 0 passed in /var/www/docs/vendor/site/core/Router.php on line 48 and exactly 1 expected | File: /var/www/docs/app/controllers/admin/DocController.php | Line: 12 
+        
+====================='=
+[2019-04-08 13:43:34] Text error: View /var/www/docs/app/views/admin/Doc/index.php not found | File: /var/www/docs/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-08 14:27:14] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'docs.brand' doesn't exist | File: /var/www/docs/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-09 07:17:11] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'docs.gallery' doesn't exist | File: /var/www/docs/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-09 11:44:57] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'docs.gallery' doesn't exist | File: /var/www/docs/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-09 12:45:30] Text error: View /var/www/docs/app/views/admin/Doc/add-image.php not found | File: /var/www/docs/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-09 12:46:50] Text error: View /var/www/docs/app/views/admin/Doc/add-image.php not found | File: /var/www/docs/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-09 12:58:28] Text error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'price_old' at row 1 | File: /var/www/docs/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-09 12:59:04] Text error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'price_old' at row 1 | File: /var/www/docs/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-09 12:59:54] Text error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'price_old' at row 1 | File: /var/www/docs/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-09 13:02:24] Text error: Page not found | File: /var/www/docs/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-09 13:03:05] Text error: Page not found | File: /var/www/docs/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-09 13:04:22] Text error: Class 'Tour' not found | File: /var/www/docs/app/views/admin/Doc/index.php | Line: 41 
+        
+====================='=
+[2019-04-09 13:05:00] Text error: Class 'Tour' not found | File: /var/www/docs/app/views/admin/Doc/index.php | Line: 41 
+        
+====================='=
+[2019-04-09 13:05:32] Text error: Controller app\controllers\DocController not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-09 13:06:14] Text error: Controller app\controllers\DocController not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-09 13:07:24] Text error: Class 'Tour' not found | File: /var/www/docs/app/views/admin/Doc/index.php | Line: 41 
+        
+====================='=
+[2019-04-09 13:28:50] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'docs.product' doesn't exist | File: /var/www/docs/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-10 07:24:58] Text error: Class 'Tour' not found | File: /var/www/docs/app/views/admin/Doc/edit.php | Line: 83 
+        
+====================='=
+[2019-04-10 07:25:38] Text error: Class 'Tour' not found | File: /var/www/docs/app/views/admin/Doc/edit.php | Line: 83 
+        
+====================='=
+[2019-04-10 07:35:55] Text error: Class 'Tour' not found | File: /var/www/docs/app/views/admin/Doc/edit.php | Line: 85 
+        
+====================='=
+[2019-04-10 07:37:02] Text error: Class 'Tour' not found | File: /var/www/docs/app/views/admin/Doc/edit.php | Line: 85 
+        
+====================='=
+[2019-04-10 07:37:06] Text error: Class 'Tour' not found | File: /var/www/docs/app/views/admin/Doc/edit.php | Line: 85 
+        
+====================='=
+[2019-04-10 07:37:13] Text error: Class 'Tour' not found | File: /var/www/docs/app/views/admin/Doc/edit.php | Line: 85 
+        
+====================='=
+[2019-04-10 07:37:46] Text error: Class 'Tour' not found | File: /var/www/docs/app/views/admin/Doc/edit.php | Line: 87 
+        
+====================='=
+[2019-04-10 07:59:09] Text error: syntax error, unexpected ')' | File: /var/www/docs/app/controllers/admin/DocController.php | Line: 206 
+        
+====================='=
+[2019-04-10 08:22:05] Text error: Page not found | File: /var/www/docs/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-10 08:25:16] Text error: Page not found | File: /var/www/docs/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-10 08:26:19] Text error: Page not found | File: /var/www/docs/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-10 08:43:59] Text error: View /var/www/docs/app/views/admin/Doc/delete-image.php not found | File: /var/www/docs/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-10 08:44:21] Text error: View /var/www/docs/app/views/admin/Doc/delete-image.php not found | File: /var/www/docs/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-10 09:29:59] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-10 09:31:14] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-10 11:07:29] Text error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'd' in 'where clause' | File: /var/www/docs/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-10 11:09:30] Text error: Page not found | File: /var/www/docs/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-10 11:09:34] Text error: Page not found | File: /var/www/docs/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-10 11:09:42] Text error: Page not found | File: /var/www/docs/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-10 14:07:52] Text error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'show_index = '1' AND status = '1' LIMIT 10  -- keep-cache' at line 1 | File: /var/www/docs/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-10 15:15:34] Text error: Controller app\controllers\DocController not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-11 07:21:15] Text error: Too few arguments to function app\controllers\DocController::typeAction(), 0 passed in /var/www/docs/vendor/site/core/Router.php on line 48 and exactly 1 expected | File: /var/www/docs/app/controllers/DocController.php | Line: 49 
+        
+====================='=
+[2019-04-11 07:22:56] Text error: Too few arguments to function app\controllers\DocController::typeAction(), 0 passed in /var/www/docs/vendor/site/core/Router.php on line 48 and exactly 1 expected | File: /var/www/docs/app/controllers/DocController.php | Line: 49 
+        
+====================='=
+[2019-04-11 07:31:57] Text error: View /var/www/docs/app/views//Doc/type.php not found | File: /var/www/docs/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-11 08:25:44] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:26:02] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:26:05] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:26:05] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:26:06] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:26:08] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:26:51] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:26:56] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:27:34] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:27:35] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:27:40] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:27:45] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:34:05] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:34:09] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:34:10] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:34:11] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:34:18] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:34:26] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:34:29] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:34:34] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:34:36] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:34:40] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:36:08] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:36:10] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:36:14] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:36:16] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:36:18] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:36:50] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:36:53] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:37:00] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:37:01] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:37:03] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:37:04] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:37:06] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:37:07] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:37:08] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:37:10] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:37:11] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:37:12] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:37:14] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:37:16] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:37:21] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:37:38] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:47:36] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:47:52] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:47:55] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:47:56] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:47:58] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:48:06] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:48:21] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:48:23] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 08:51:06] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-11 09:21:50] Text error: Class 'app\controllers\R' not found | File: /var/www/docs/app/controllers/DocController.php | Line: 22 
+        
+====================='=
+[2019-04-11 13:22:51] Text error: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '11-04-2019 13:22:51' for column 'created_at' at row 1 | File: /var/www/docs/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-11 13:31:01] Text error: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '11-04-2019 13:31:01' for column 'created_at' at row 1 | File: /var/www/docs/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-04-11 13:49:47] Text error: Action app\controllers\DocController::confirmAction not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 51 
+        
+====================='=
+[2019-04-11 14:16:28] Text error: Page not found | File: /var/www/docs/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-11 14:18:03] Text error: Page not found | File: /var/www/docs/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-11 14:18:54] Text error: Page not found | File: /var/www/docs/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-11 14:18:56] Text error: Page not found | File: /var/www/docs/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-11 14:19:03] Text error: Page not found | File: /var/www/docs/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-11 14:20:19] Text error: Page not found | File: /var/www/docs/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-11 14:20:24] Text error: Page not found | File: /var/www/docs/app/controllers/admin/AdminController.php | Line: 29 
+        
+====================='=
+[2019-04-11 14:46:54] Text error: Action app\controllers\DocController::confirmAction not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 51 
+        
+====================='=
+[2019-04-11 14:47:04] Text error: Action app\controllers\DocController::confirmAction not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 51 
+        
+====================='=
+[2019-04-12 06:54:23] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 06:55:16] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 06:55:49] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 06:56:26] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 07:14:05] Text error: Controller app\controllers\ThanksController not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-12 08:55:33] Text error: Controller app\controllers\FailController not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-12 09:05:53] Text error: Controller app\controllers\FailController not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-12 09:05:58] Text error: Controller app\controllers\FailController not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-12 09:09:17] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:12:48] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:14:28] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:14:40] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:17:26] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:17:37] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:17:39] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:17:40] Text error: View /var/www/docs/app/views//Doc/create-form.php not found | File: /var/www/docs/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-04-12 09:21:21] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:22:52] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:24:09] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:24:19] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:24:24] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:24:47] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:24:51] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:26:16] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:26:18] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:26:22] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:26:32] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:26:33] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:26:39] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:26:45] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:26:56] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:28:07] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:29:15] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 09:31:24] Text error: Controller app\controllers\CheckoutController not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-12 09:31:29] Text error: Controller app\controllers\CheckoutController not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-12 09:46:34] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 10:06:47] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 10:06:50] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 10:07:38] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 10:07:42] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 10:07:43] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 10:07:49] Text error: Controller app\controllers\CheckoutController not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-12 10:07:52] Text error: Controller app\controllers\CheckoutController not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-04-12 10:09:22] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 10:11:05] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-04-12 10:11:08] Text error: Page not found | File: /var/www/docs/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-02 14:49:20] Text error: Don't connection to db | File: /var/www/givi_studio/vendor/site/core/Db.php | Line: 15 
+        
+====================='=
+[2019-05-02 14:49:46] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'givistudio.job' doesn't exist | File: /var/www/givi_studio/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194
+        
+====================='=
+[2019-05-03 06:53:39] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'givistudio.job' doesn't exist | File: /var/www/givi_studio/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194
+        
+====================='=
+[2019-05-03 07:04:53] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-03 07:12:44] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'givistudio.orders' doesn't exist | File: /var/www/givi_studio/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-05-03 08:54:31] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'givistudio.employee' doesn't exist | File: /var/www/givi_studio/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194
+        
+====================='=
+[2019-05-03 09:24:30] Text error: Call to a member function getCountPages() on null | File: /var/www/givi_studio/app/views/admin/Service/index.php | Line: 58 
+        
+====================='=
+[2019-05-03 09:25:22] Text error: Call to a member function getCountPages() on null | File: /var/www/givi_studio/app/views/admin/Service/index.php | Line: 58 
+        
+====================='=
+[2019-05-03 13:00:33] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-03 13:18:43] Text error: View /var/www/givi_studio/app/views/admin/Employee/index.php not found | File: /var/www/givi_studio/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-05-03 13:25:50] Text error: View /var/www/givi_studio/app/views/admin/Employee/index.php not found | File: /var/www/givi_studio/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-05-06 06:38:29] Text error: View /var/www/givi_studio/app/views/admin/Contact/edit.php not found | File: /var/www/givi_studio/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-05-06 07:09:04] Text error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'price' at row 1 | File: /var/www/givi_studio/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-05-06 07:11:10] Text error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'price' at row 1 | File: /var/www/givi_studio/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-05-06 07:12:57] Text error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'price' at row 1 | File: /var/www/givi_studio/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-05-06 07:13:40] Text error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'price' at row 1 | File: /var/www/givi_studio/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-05-06 07:17:01] Text error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'price' at row 1 | File: /var/www/givi_studio/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-05-06 08:09:45] Text error: Call to a member function getGallery() on null | File: /var/www/givi_studio/app/controllers/MainController.php | Line: 22 
+        
+====================='=
+[2019-05-06 08:36:24] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 08:36:35] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 08:38:17] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 08:38:23] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 08:38:38] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 08:39:25] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 08:39:35] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 08:39:40] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 08:39:56] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 08:40:11] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 08:41:34] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 08:44:18] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 08:46:55] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 08:47:14] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 08:48:27] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 09:14:50] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-06 09:50:29] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-27 06:57:01] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-27 07:00:59] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-27 07:01:13] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-27 07:04:04] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-05-27 07:04:16] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 07:30:01] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 07:30:38] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 07:31:17] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 07:31:52] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 07:34:14] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 07:34:19] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 07:36:40] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 07:39:23] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 07:40:50] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 07:51:24] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 07:51:25] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 07:51:30] Text error: View /var/www/givi_studio/app/views//Main/send.php not found | File: /var/www/givi_studio/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-06-05 07:52:49] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 07:54:37] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 07:57:48] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 07:59:32] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:00:25] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:01:13] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:02:46] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:03:59] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:05:25] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:06:38] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:06:59] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:07:25] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:07:43] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:07:46] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:07:54] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:08:37] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:08:39] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:09:19] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:09:48] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:09:50] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:14:20] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:14:22] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:15:10] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:16:06] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 08:48:37] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 09:14:14] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 09:14:27] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 09:15:18] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-05 09:15:19] Text error: Page not found | File: /var/www/givi_studio/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-06-18 09:35:31] Text error: Don't connection to db | File: /var/www/market/vendor/site/core/Db.php | Line: 15 
+        
+====================='=
+[2019-06-18 12:33:19] Text error: Controller app\controllers\admin\RoomController not found | File: /var/www/market/vendor/site/core/Router.php | Line: 54 
+        
+====================='=
+[2019-06-18 12:34:38] Text error: View /var/www/market/app/views/admin/Room/index.php not found | File: /var/www/market/vendor/site/core/base/View.php | Line: 60 
+        
+====================='=
+[2019-06-18 12:35:29] Text error: Call to a member function getCountPages() on null | File: /var/www/market/app/views/admin/Room/index.php | Line: 58 
+        
+====================='=
