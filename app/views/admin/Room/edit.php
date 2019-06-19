@@ -1,19 +1,19 @@
 <?php
 
-use app\models\admin\Employee;
+use app\models\admin\Room;
 use site\App;
 
 
-/** @var $employee Employee */
-
+/** @var $room Room */
 ?>
 
 
 <section class="content-header">
-    <h1>Изменить <?= $employee->username?></h1>
+    <h1>Изменить <?= $room->name?></h1>
     <ol class="breadcrumb">
         <li><a href="<?=ADMIN?>"><i class="fa fa-dashboard"></i>Главная</a></li>
-        <li><a href="<?=ADMIN?>/employee"><i class="fa fa-folder"></i>Команда</a></li>
+        <li><a href="<?=ADMIN?>/room"><i class="fa fa-folder"></i>Все помещения</a></li>
+        <li><?= $room->name?></li>
     </ol>
 </section>
 
@@ -24,55 +24,93 @@ use site\App;
                 <div class="box-body">
                     <div class="register-main">
                         <div class="col-md-12 account-left edit-form-wrap">
-                            <form method="post" id="form" action="<?=ADMIN?>/employee/edit?id=<?=$employee->id?>"
+                            <form method="post" id="form" action="<?=ADMIN?>/room/edit"
                                   data-toggle="validator" role="form" autocomplete="off"
-                                  data-add_url="<?=ADMIN?>/employee/add-image"
-                                  data-remove_url="<?=ADMIN?>/employee/remove-image-file"
-                                  data-remove_photo_db_url="<?=ADMIN?>/employee/delete-image"
+                                  data-add_room_image_url="<?=ADMIN?>/room/add-room-image"
+                                  data-add_logo_image_url="<?=ADMIN?>/room/add-logo-image"
+                                  data-remove_room_image_url="<?=ADMIN?>/room/remove-room-image-file"
+                                  data-remove_logo_image_url="<?=ADMIN?>/room/remove-logo-image-file"
+                                  data-remove_room_photo_db_url="<?=ADMIN?>/room/delete-room-image"
+                                  data-remove_logo_photo_db_url="<?=ADMIN?>/room/delete-logo-image"
                             >
 
-                                <?php if (!$employee->image): ?>
-                                    <div class="form-group has-feedback file-upload-wrap">
-                                        <label>Фото <small> рекомендованные размеры: (ширина - <?= App::$app->getProperty('employee_img_width') ?>px; высота - <?= App::$app->getProperty('employee_img_height') ?>px; ) </small> </label>
-                                        <div class="upload" id="upload">
+                                <?php if (!$room->image): ?>
+                                    <div class="form-group has-feedback file-upload-wrap room-file-upload">
+                                        <label>Фото помещения  </label>
+                                        <small> рекомендованные размеры: (ширина - <?= App::$app->getProperty('room_img_width') ?>px; высота - <?= App::$app->getProperty('room_img_height') ?>px; ) </small>
+                                        <div class="upload" id="upload-room">
 
                                         </div>
                                     </div>
                                 <?php else: ?>
                                     <div class="form-group">
+                                        <p><b>Фото помещения</b></p>
                                         <div class="col-md-4 gallery-item">
-                                            <a href="<?= PATH ?>/upload/<?= $employee->image ?>" target="blank">
-                                                <img src="<?= PATH ?>/upload/<?= $employee->image ?>" class="img-responsive" alt="image"/>
+                                            <a href="<?= PATH ?>/upload/room/<?= $room->image ?>" target="blank">
+                                                <img src="<?= PATH ?>/upload/room/<?= $room->image ?>" class="img-responsive" alt="image"/>
                                             </a>
-                                            <button type="button" class="btn btn-link remove_image" data-name="<?= $employee->image ?>" data-id="<?= $employee->id ?>">Удалить</button>
+                                            <button type="button" class="btn btn-link remove_room_image" data-name="<?= $room->image ?>" data-id="<?= $room->id ?>">Удалить</button>
                                         </div>
                                     </div>
                                     <div class="clearfix"></div>
                                 <?php endif; ?>
 
                                 <div class="form-group has-feedback">
-                                    <label for="username">Имя и Фамилия</label>
-                                    <input type="text" name="username" class="form-control" id="username" placeholder="Имя и Фамилия"
-                                           data-error="Minimum of 3 chars" data-minlength="3"
-                                           value="<?= $employee->username ?>"
+                                    <label for="name">Название</label>
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Название"
+                                           data-error="Minimum of 2 chars" data-minlength="3" maxlength="255"
+                                           value="<?= $room->name ?>"
                                            required>
                                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="form-group has-feedback">
-                                    <label for="position">Должность</label>
-                                    <input type="text" name="position" class="form-control" id="position" placeholder="Должность"
-                                           data-error="Minimum of 3 chars" data-minlength="3"
-                                           value="<?= $employee->position ?>"
-                                           required>
+                                    <label for="area">Площадь</label>
+                                    <input type="text" name="area" class="form-control" id="area" placeholder="Площадь" pattern="^\d*\.?\d*$"
+                                           value="<?= $room->area ?>"
+                                           required >
                                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                                     <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <label for="company_name">Название компании</label>
+                                    <input type="text" name="company_name" class="form-control" id="company_name" placeholder="Название компании"
+                                           value="<?= $room->company_name ?>" maxlength="255"
+                                            >
+                                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <?php if (!$room->logo): ?>
+                                    <div class="form-group has-feedback file-upload-wrap logo-file-upload">
+                                        <label>Логотип  </label>
+                                        <small> рекомендованные размеры: (ширина - <?= App::$app->getProperty('logo_img_width') ?>px; высота - <?= App::$app->getProperty('logo_img_height') ?>px; ) </small>
+                                        <div class="upload" id="upload-logo">
+
+                                        </div>
+                                    </div>
+                                <?php else: ?>
+                                    <div class="form-group">
+                                        <p><b>Логотип</b></p>
+                                        <div class="col-md-4 gallery-item">
+                                            <a href="<?= PATH ?>/upload/logo/<?= $room->logo ?>" target="blank">
+                                                <img src="<?= PATH ?>/upload/logo/<?= $room->logo ?>" class="img-responsive" alt="image"/>
+                                            </a>
+                                            <button type="button" class="btn btn-link remove_logo_image" data-name="<?= $room->logo ?>" data-id="<?= $room->id ?>">Удалить</button>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                <?php endif; ?>
+                                <div class="form-group">
+                                    <label for="editor1">Описание</label>
+                                    <textarea class="form-control" rows="20" id="editor1" name="description">
+                                        <?= $room->description ?>
+                                    </textarea>
                                 </div>
                                 <div class="form-group has-feedback">
                                     <label for="status">Статус</label>
                                     <select class="form-control" id="status" name="status" required>
-                                        <?php foreach (Employee::getStatuses() as $key => $value): ?>
-                                            <?php if ($key == $employee->status):?>
+                                        <?php foreach (Room::getStatuses() as $key => $value): ?>
+                                            <?php if ($key == $room->status):?>
                                                 <option value="<?=$key?>" selected><?=$value?></option>
                                             <?php else: ?>
                                                 <option value="<?=$key?>"><?=$value?></option>
@@ -80,9 +118,9 @@ use site\App;
                                         <?php endforeach; ?>
                                     </select>
                                 </div>
-
                                 <div class="clearfix"></div>
-                                <input type="hidden" name="id" value="<?=$employee->id;?>">
+                                <input type="hidden" name="id" value="<?=$room->id;?>">
+                                <input type="hidden" name="floor" value="<?=$room->floor;?>">
                                 <div class="form-group">
                                     <button type="submit" class="btn btn-block btn-success">Сохранить</button>
                                 </div>

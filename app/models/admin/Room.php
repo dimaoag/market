@@ -6,6 +6,7 @@ use app\models\AppModel;
 /**
  * @property int $id
  * @property string $name
+ * @property string $company_name
  * @property string $logo
  * @property string $description
  * @property integer $floor
@@ -26,8 +27,14 @@ class Room extends AppModel {
     const FLOOR_THREE   = 3;
 
 
+    const IMAGE_TYPE_ROOM = 'image';
+    const IMAGE_TYPE_LOGO = 'logo';
+    const IMAGE_TYPE_GALLERY = 'gallery';
+
+
     public $attributes = [
         'name' => '',
+        'company_name' => '',
         'description' => '',
         'floor' => '',
         'area' => '',
@@ -50,27 +57,27 @@ class Room extends AppModel {
 
 
 
-    public function getImg(){
-        if (!empty($_SESSION['image'])){
-            $this->attributes['image'] = $_SESSION['image'];
-            unset($_SESSION['image']);
+    public function getImg($imageType){
+        if (!empty($_SESSION[$imageType])){
+            $this->attributes[$imageType] = $_SESSION[$imageType];
+            unset($_SESSION[$imageType]);
         }
     }
 
 
-    public function uploadImg($name, $wmax, $hmax){
-        $uploaddir = WWW . '/upload/';
+    public function uploadImg($dirName, $imageType, $name, $wmax, $hmax){
+        $uploaddir = WWW . '/upload/'. $dirName .'/';
         $ext = strtolower(preg_replace("#.+\.([a-z]+)$#i", "$1", $_FILES[$name]['name'])); // расширение картинки
         $types = array("image/gif", "image/png", "image/jpeg", "image/jpeg", "image/x-png"); // массив допустимых расширений
-        if($_FILES[$name]['size'] > 5242880){
+        if ($_FILES[$name]['size'] > 5242880){
             $res = array("error" => "Error! Max size of file - 5 Мб!");
             exit(json_encode($res));
         }
-        if($_FILES[$name]['error']){
+        if ($_FILES[$name]['error']){
             $res = array("error" => "Error!. Maybe file's size very big!");
             exit(json_encode($res));
         }
-        if(!in_array($_FILES[$name]['type'], $types)){
+        if (!in_array($_FILES[$name]['type'], $types)){
             $res = array("error" => "Enable extensions are:  .gif, .jpg, .png");
             exit(json_encode($res));
         }
@@ -78,12 +85,11 @@ class Room extends AppModel {
         $uploadfile = $uploaddir.$new_name;
         if(@move_uploaded_file($_FILES[$name]['tmp_name'], $uploadfile)){
 
-            $_SESSION['image'] = $new_name;
+            $_SESSION[$imageType] = $new_name;
 
             self::resize($uploadfile, $uploadfile, $wmax, $hmax, $ext);
             $res = array("file" => $new_name);
             exit(json_encode($res));
-
         }
     }
 

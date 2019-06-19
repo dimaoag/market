@@ -25,25 +25,24 @@ use app\models\admin\Room;
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped table-hover">
                             <thead>
-                                <tr>
-                                    <th>Название</th>
-                                    <th>Этаж</th>
-                                    <th>Статус</th>
-                                    <th>Действия</th>
-                                </tr>
+                            <tr>
+                                <th>Название</th>
+                                <th>Этаж</th>
+                                <th>Название компании</th>
+                                <th>Статус</th>
+                                <th>Действия</th>
+                            </tr>
                             </thead>
                             <tbody>
                             <?php foreach ($rooms as $room):?>
                                 <tr>
                                     <td><?= $room['name'];?></td>
                                     <td><?= Room::getFloorName($room['floor']) ?></td>
+                                    <td><?= $room['company_name'] ?></td>
                                     <td><?= Room::getStatusName($room['status']) ?></td>
                                     <td>
-                                        <a href="<?=ADMIN?>/employee/edit?id=<?=$room['id'];?>">
+                                        <a href="<?=ADMIN?>/room/edit?id=<?=$room['id'];?>">
                                             <i class="fa fa-fw fa-edit"></i>
-                                        </a>
-                                        <a href="<?=ADMIN?>/employee/delete?id=<?=$room['id'];?>">
-                                            <i class="fa fa-fw fa-trash delete text-danger"></i>
                                         </a>
                                     </td>
                                 </tr>

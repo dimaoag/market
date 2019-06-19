@@ -1,16 +1,33 @@
 
 if ($('div').is('.file-upload-wrap')){
 
-    var fileName = '';
+    var roomFileName = '';
+    var logoFileName = '';
     var form = $('#form');
-    var add_image_url = form.data('add_url');
-    var remove_image_url = form.data('remove_url');
+    var add_room_image_url = form.data('add_room_image_url');
+    var add_logo_image_url = form.data('add_logo_image_url');
+    var remove_room_image_url = form.data('remove_room_image_url');
+    var remove_logo_image_url = form.data('remove_logo_image_url');
 
-    function removeFile(){
+
+    function removeRoomFile(){
         $.ajax({
             type: 'POST',
-            url: remove_image_url,
-            data: {name: fileName},
+            url: remove_room_image_url,
+            data: {name: roomFileName},
+            success: function (data) {
+
+            }
+        });
+        return true;
+    }
+
+
+    function removeLogoFile(){
+        $.ajax({
+            type: 'POST',
+            url: remove_logo_image_url,
+            data: {name: logoFileName},
             success: function (data) {
 
             }
@@ -22,58 +39,115 @@ if ($('div').is('.file-upload-wrap')){
 
     $(document).ready(function(){
 
-        var myDropzone = new Dropzone("#upload", {
-            url: add_image_url,
-            maxFiles: 1,
-            autoProcessQueue: true,
-            addRemoveLinks: true,
-            acceptedFiles:".png,.jpg,.jpeg",
-            maxFilesize: 5, //mb
-            dictMaxFilesExceeded: "Достигнут лимит на количество загруженных картинок. Максимальное количество загрузки  {{maxFiles}} шт.",
-            dictDefaultMessage: '<div class="dz-message">Нажмите здесь или перетащите сюда файлы для загрузки</div>',
-            dictRemoveFile: '<div class="remove-link-dropzone-image" id="remove-image-file" onclick="removeFile();">Удалить фото</div>',
-            init: function () {
-                $(this.element).html(this.options.dictDefaultMessage);
+
+        if ($('div').is('.room-file-upload')){
+
+            var myDropzoneRoomImage = new Dropzone("#upload-room", {
+                url: add_room_image_url,
+                maxFiles: 1,
+                autoProcessQueue: true,
+                addRemoveLinks: true,
+                acceptedFiles:".png,.jpg,.jpeg",
+                maxFilesize: 5, //mb
+                dictMaxFilesExceeded: "Достигнут лимит на количество загруженных картинок. Максимальное количество загрузки  {{maxFiles}} шт.",
+                dictDefaultMessage: '<div class="dz-message">Нажмите здесь или перетащите сюда файлы для загрузки</div>',
+                dictRemoveFile: '<div class="remove-link-dropzone-image" onclick="removeRoomFile();">Удалить фото</div>',
+                init: function () {
+                    $(this.element).html(this.options.dictDefaultMessage);
 
 
-                // var dzClosure = this; // Makes sure that 'this' is understood inside the functions below.
-                //
-                // // for Dropzone to process the queue (instead of default form behavior):
+                    // var dzClosure = this; // Makes sure that 'this' is understood inside the functions below.
+                    //
+                    // // for Dropzone to process the queue (instead of default form behavior):
 
-                //
-                //
-                // //send all the form data along with the files:
-                // this.on("sending", function(data, xhr, formData) {
-                //     formData.append("title", jQuery("#title").val());
-                //     formData.append("price_old", jQuery("#price_old").val());
-                //     formData.append("price_new", jQuery("#price_new").val());
-                //     formData.append("link", jQuery("#link").val());
-                //     formData.append("description", jQuery("#editor1").val());
-                // });
-
-
-                this.on("maxfilesexceeded", function() {
-                    if (this.files[1]!=null){
-                        this.removeFile(this.files[1]);
-                    }
-                });
-
-            },
-            success: function (file, response) {
-                response = $.parseJSON(response);
-                fileName = response.file;
-            },
-        });
-
-        // myDropzone.on("addedfile", function(file) {
-        //
-        //
-        // });
+                    //
+                    //
+                    // //send all the form data along with the files:
+                    // this.on("sending", function(data, xhr, formData) {
+                    //     formData.append("title", jQuery("#title").val());
+                    //     formData.append("price_old", jQuery("#price_old").val());
+                    //     formData.append("price_new", jQuery("#price_new").val());
+                    //     formData.append("link", jQuery("#link").val());
+                    //     formData.append("description", jQuery("#editor1").val());
+                    // });
 
 
-        // myDropzone.on("removedfile", function(file) {
+                    this.on("maxfilesexceeded", function() {
+                        if (this.files[1] != null){
+                            this.removeRoomFile(this.files[1]);
+                        }
+                    });
 
-        // });
+                },
+                success: function (file, response) {
+                    response = $.parseJSON(response);
+                    roomFileName = response.file;
+                },
+            });
+
+            // myDropzone.on("addedfile", function(file) {
+            //
+            //
+            // });
+
+
+            // myDropzone.on("removedfile", function(file) {
+
+            // });
+
+        }
+
+
+
+
+        if ($('div').is('.logo-file-upload')){
+
+            var myDropzoneLogoImage = new Dropzone("#upload-logo", {
+                url: add_logo_image_url,
+                maxFiles: 1,
+                autoProcessQueue: true,
+                addRemoveLinks: true,
+                acceptedFiles:".png,.jpg,.jpeg",
+                maxFilesize: 5, //mb
+                dictMaxFilesExceeded: "Достигнут лимит на количество загруженных картинок. Максимальное количество загрузки  {{maxFiles}} шт.",
+                dictDefaultMessage: '<div class="dz-message">Нажмите здесь или перетащите сюда файлы для загрузки</div>',
+                dictRemoveFile: '<div class="remove-link-dropzone-image" onclick="removeLogoFile();">Удалить фото</div>',
+                init: function () {
+                    $(this.element).html(this.options.dictDefaultMessage);
+
+
+                    // var dzClosure = this; // Makes sure that 'this' is understood inside the functions below.
+                    //
+                    // // for Dropzone to process the queue (instead of default form behavior):
+
+                    //
+                    //
+                    // //send all the form data along with the files:
+                    // this.on("sending", function(data, xhr, formData) {
+                    //     formData.append("title", jQuery("#title").val());
+                    //     formData.append("price_old", jQuery("#price_old").val());
+                    //     formData.append("price_new", jQuery("#price_new").val());
+                    //     formData.append("link", jQuery("#link").val());
+                    //     formData.append("description", jQuery("#editor1").val());
+                    // });
+
+
+                    this.on("maxfilesexceeded", function() {
+                        if (this.files[1]!=null){
+                            this.removeLogoFile(this.files[1]);
+                        }
+                    });
+
+                },
+                success: function (file, response) {
+                    response = $.parseJSON(response);
+                    logoFileName = response.file;
+                },
+            });
+
+        }
+
+
     });
 
 }
@@ -81,11 +155,11 @@ if ($('div').is('.file-upload-wrap')){
 
 
 
-$(".edit-form-wrap").on( "click", ".remove_image", function() {
+$(".edit-form-wrap").on( "click", ".remove_room_image", function() {
     var name = $(this).data('name');
     var id = $(this).data('id');
     var form = $('#form');
-    var url = form.data('remove_photo_db_url');
+    var url = form.data('remove_room_photo_db_url');
 
     $.ajax({
         url: url,
@@ -102,9 +176,32 @@ $(".edit-form-wrap").on( "click", ".remove_image", function() {
             // }
         }
     });
-
 });
 
+
+
+$(".edit-form-wrap").on( "click", ".remove_logo_image", function() {
+    var name = $(this).data('name');
+    var id = $(this).data('id');
+    var form = $('#form');
+    var url = form.data('remove_logo_photo_db_url');
+
+    $.ajax({
+        url: url,
+        method:"POST",
+        data:{
+            name:name,
+            id:id,
+        },
+        success:function(data) {
+            console.log(data);
+            document.location.reload(true);
+            // if(data !== 'true'){
+            //     alert('Error!')
+            // }
+        }
+    });
+});
 
 
 // alert before delete item

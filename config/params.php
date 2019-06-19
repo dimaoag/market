@@ -18,6 +18,9 @@ return [
     'server_url' => PATH . '/doc/checkout', //https://www.legalportal.com.ua/doc/checkout
     'service_img_width' => 1270,
     'service_img_height' => 750,
-    'employee_img_width' => 340,
-    'employee_img_height' => 410,
+    'logo_img_width' => 200,
+    'logo_img_height' => 200,
+    'room_img_width' => 1270,
+    'room_img_height' => 550,
+
 ];

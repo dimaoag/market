@@ -36,8 +36,6 @@ class RoomController extends AdminController {
 
         $floorName = $floors[$floor];
 
-
-
         $rooms = \R::getAll("SELECT * FROM room WHERE floor = ? ORDER BY id", [$floor]);
         $this->setMeta('Все помещения на' . $floorName);
         $this->setData(compact('rooms', 'floorName'));
@@ -69,52 +67,72 @@ class RoomController extends AdminController {
 
     public function editAction()
     {
-        /** @var $employee Employee */
+        /** @var $room Room */
         if (!empty($_POST)){
             $id = $this->getRequestId(false);
-            $employee = new Employee();
+            $room = new Room();
             $data = $_POST;
-            $employee->load($data);
-            $employee->getImg();
-            if (!$employee->validate($data)){
-                $employee->getErrors();
+            $room->load($data);
+            $room->getImg(Room::IMAGE_TYPE_ROOM);
+            $room->getImg(Room::IMAGE_TYPE_LOGO);
+            if (!$room->validate($data)){
+                $room->getErrors();
                 redirect();
             }
-            if ($employee->update('employee', $id)){
+            if ($room->update('room', $id)){
                 $_SESSION['success'] =  'Данные успешно изменены!';
             }
-            redirect(ADMIN .'/employee/edit?id=' . $id);
+            redirect(ADMIN .'/room/edit?id=' . $id);
         }
         $id = (int)$this->getRequestId();
-        $employee = \R::findOne('employee', 'id = ?', [$id]);
-        $this->setMeta('Изменить  ' . $employee->username);
-        $this->setData(compact('employee'));
+        $room = \R::findOne('room', 'id = ?', [$id]);
+        $this->setMeta('Изменить  ' . $room->name);
+        $this->setData(compact('room'));
     }
 
 
 
-
-    public function deleteAction()
+    public function addRoomImageAction()
     {
-        /** @var $employee Employee */
-        $id = $this->getRequestId();
-        $employee = \R::findOne('employee', "id = ?", [$id]);
-        if (!$employee){
-            redirect(ADMIN .'/employee');
-        }
-        \R::exec("DELETE FROM employee WHERE id = ?", [$employee->id]);
-        @unlink(WWW . '/upload/' . $employee->image);
-        $_SESSION['success'] =  'Данные успешно удалены!';
-        redirect(ADMIN .'/employee');
+        $wmax = App::$app->getProperty('room_img_width');
+        $hmax = App::$app->getProperty('room_img_height');
+        $name = 'file';
+        $room = new Room();
+        $room->uploadImg('room', Room::IMAGE_TYPE_ROOM, $name, $wmax, $hmax);
+        die();
     }
 
 
 
-    public function removeImageFileAction()
+    public function addLogoImageAction()
+    {
+        $wmax = App::$app->getProperty('logo_img_width');
+        $hmax = App::$app->getProperty('logo_img_height');
+        $name = 'file';
+        $room = new Room();
+        $room->uploadImg('logo', Room::IMAGE_TYPE_LOGO, $name, $wmax, $hmax);
+        die();
+    }
+
+
+
+
+    public function removeRoomImageFileAction()
     {
         if (!empty($_POST)){
             $fileName = $_POST['name'] ? htmlspecialchars($_POST['name']) : null;
-            @unlink(WWW . '/upload/' . $fileName);
+            @unlink(WWW . '/upload/room/' . $fileName);
+            echo json_encode(['result'=>'success']);
+        }
+        die();
+    }
+
+
+    public function removeLogoImageFileAction()
+    {
+        if (!empty($_POST)){
+            $fileName = $_POST['name'] ? htmlspecialchars($_POST['name']) : null;
+            @unlink(WWW . '/upload/logo/' . $fileName);
             echo json_encode(['result'=>'success']);
         }
         die();
@@ -122,20 +140,7 @@ class RoomController extends AdminController {
 
 
 
-
-    public function addImageAction()
-    {
-        $wmax = App::$app->getProperty('employee_img_width');
-        $hmax = App::$app->getProperty('employee_img_height');
-        $name = 'file';
-        $employee = new Employee();
-        $employee->uploadImg($name, $wmax, $hmax);
-        die();
-    }
-
-
-
-    public function deleteImageAction(){
+    public function deleteRoomImageAction(){
 
         $res = false;
         $id = isset($_POST['id']) ? (int)$_POST['id'] : null;
@@ -146,20 +151,49 @@ class RoomController extends AdminController {
             die();
         }
 
-        $employee  = \R::find( 'employee', ' id = ? AND image = ?', [$id, $name]);
+        $employee  = \R::find( 'room', ' id = ? AND image = ?', [$id, $name]);
         if (!$employee){
             echo json_encode($res);
             die();
         }
 
-        if (\R::exec("UPDATE employee SET image = ? WHERE id = ?", [null, $id])){
-            @unlink(WWW . '/upload/'. $name);
+        if (\R::exec("UPDATE room SET image = ? WHERE id = ?", [null, $id])){
+            @unlink(WWW . '/upload/room/'. $name);
             $res = true;
         }
 
         echo  json_encode($res);
         die();
     }
+
+
+    public function deleteLogoImageAction(){
+
+        $res = false;
+        $id = isset($_POST['id']) ? (int)$_POST['id'] : null;
+        $name = isset($_POST['name']) ? htmlspecialchars($_POST['name']) : null;
+
+        if (!$id || !$name) {
+            echo json_encode($res);
+            die();
+        }
+
+        $employee  = \R::find( 'room', ' id = ? AND logo = ?', [$id, $name]);
+        if (!$employee){
+            echo json_encode($res);
+            die();
+        }
+
+        if (\R::exec("UPDATE room SET logo = ? WHERE id = ?", [null, $id])){
+            @unlink(WWW . '/upload/logo/'. $name);
+            $res = true;
+        }
+
+        echo  json_encode($res);
+        die();
+    }
+
+
 
 
 

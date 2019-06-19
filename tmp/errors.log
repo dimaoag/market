@@ -1921,3 +1921,24 @@
 [2019-06-18 12:35:29] Text error: Call to a member function getCountPages() on null | File: /var/www/market/app/views/admin/Room/index.php | Line: 58 
         
 ====================='=
+[2019-06-19 07:20:41] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'market.employee' doesn't exist | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 07:22:10] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'market.employee' doesn't exist | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-06-19 07:31:43] Text error: Class 'Employee' not found | File: /var/www/market/app/views/admin/Room/edit.php | Line: 72 
+        
+====================='=
+[2019-06-19 07:32:00] Text error: Class 'Employee' not found | File: /var/www/market/app/views/admin/Room/edit.php | Line: 72 
+        
+====================='=
+[2019-06-19 09:26:15] Text error: Action app\controllers\admin\RoomController::removeRoomImageFileAction not found | File: /var/www/market/vendor/site/core/Router.php | Line: 51 
+        
+====================='=
+[2019-06-19 09:26:49] Text error: Action app\controllers\admin\RoomController::removeRoomImageFileAction not found | File: /var/www/market/vendor/site/core/Router.php | Line: 51 
+        
+====================='=
+[2019-06-19 09:27:05] Text error: Action app\controllers\admin\RoomController::removeRoomImageFileAction not found | File: /var/www/market/vendor/site/core/Router.php | Line: 51 
+        
+====================='=
