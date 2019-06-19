@@ -25,6 +25,25 @@ class RoomController extends AdminController {
     }
 
 
+    public function floorAction()
+    {
+        $floor = isset($_GET['floor']) ? $_GET['floor'] : exit('Error');
+        $floors = [
+            Room::FLOOR_ONE => 'первом',
+            Room::FLOOR_TWO => 'втором',
+            Room::FLOOR_THREE => 'третьем',
+        ];
+
+        $floorName = $floors[$floor];
+
+
+
+        $rooms = \R::getAll("SELECT * FROM room WHERE floor = ? ORDER BY id", [$floor]);
+        $this->setMeta('Все помещения на' . $floorName);
+        $this->setData(compact('rooms', 'floorName'));
+    }
+
+
 
     public function addAction()
     {

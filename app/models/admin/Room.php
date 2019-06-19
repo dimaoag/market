@@ -144,9 +144,33 @@ class Room extends AppModel {
     public static function getStatuses()
     {
         return [
-            self::STATUS_ACTIVE => 'Активный',
-            self::STATUS_DRAFT => 'Не активный'
+            self::STATUS_FREE => 'Свободный',
+            self::STATUS_BOOKED => 'Забронированый'
         ];
     }
+
+
+    public static function getFloors()
+    {
+        return [
+            self::FLOOR_ONE => 'Первый',
+            self::FLOOR_TWO => 'Второй',
+            self::FLOOR_THREE => 'Третий',
+        ];
+    }
+
+
+    public static function getStatusName($status)
+    {
+        return self::getStatuses()[$status];
+    }
+
+
+    public static function getFloorName($floor)
+    {
+        return self::getFloors()[$floor];
+    }
+
+
 
 }

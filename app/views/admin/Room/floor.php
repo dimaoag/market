@@ -1,17 +1,15 @@
 <?php
 
-use site\libs\Pagination;
 use app\models\admin\Room;
 
-
 /** @var $rooms Room [] */
-/** @var $pagination Pagination */
-/** @var $count integer */
+/** @var $floorName string */
+
 ?>
 
 
 <section class="content-header">
-    <h1>Все помещения</h1>
+    <h1>Все помещения на <?= $floorName ?></h1>
     <ol class="breadcrumb">
         <li><a href="<?=ADMIN?>"><i class="fa fa-dashboard"></i>Главная</a></li>
         <li><a href="<?=ADMIN?>/room"><i class="fa fa-folder"></i>Все помещения</a></li>
@@ -52,12 +50,6 @@ use app\models\admin\Room;
                             <?php endforeach;?>
                             </tbody>
                         </table>
-                    </div>
-                    <div class="text-content">
-                        <p><?=count($rooms);?> помещений(е) с <?=$count?></p>
-                        <?php if ($pagination->getCountPages() > 1):?>
-                            <?=$pagination?>
-                        <?php endif; ?>
                     </div>
                 </div>
                 <!-- /.box-body -->
