@@ -59,7 +59,7 @@ use site\App;
                                 <div class="form-group has-feedback">
                                     <label for="name">Секция</label>
                                     <input type="text" name="name" class="form-control" id="name" placeholder="Секция"
-                                           data-error="Minimum of 2 chars" data-minlength="3" maxlength="255"
+                                           data-error="Minimum of 2 chars" data-minlength="2" maxlength="255"
                                            value="<?= $room->name ?>"
                                            required>
                                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
