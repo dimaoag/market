@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="25" viewBox="0 0 35 25"><defs><path id="dlqca" d="M1036.79 4895.27l10.26-10.26a1.603 1.603 0 0 1 2.268 2.267l-7.523 7.523h27.4a1.603 1.603 0 0 1 0 3.206h-27.4l7.522 7.524a1.603 1.603 0 1 1-2.267 2.267l-10.26-10.26a1.603 1.603 0 0 1 0-2.267z"/></defs><g><g transform="translate(-1036 -4884)"><use xlink:href="#dlqca"/></g></g></svg>
+<svg width="45" height="24" viewBox="0 0 45 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="44.4874" height="2.08535" rx="1.04267" transform="matrix(-1 0 0 1 45 10.7292)" fill="white"/>
+<rect width="16.6535" height="2.08535" rx="1.04267" transform="matrix(-0.70666 0.707553 0.707553 0.70666 11.7683 0)" fill="white"/>
+<rect width="16.6535" height="2.08535" rx="1.04267" transform="matrix(0.707067 0.707146 0.707146 -0.707067 0.0385742 11.946)" fill="white"/>
+</svg>

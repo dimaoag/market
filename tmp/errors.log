@@ -2002,3 +2002,9 @@
 [2019-06-19 14:27:59] Text error: Class 'app\controllers\admin\R' not found | File: /var/www/market/app/controllers/admin/RoomController.php | Line: 68 
         
 ====================='=
+[2019-07-08 12:50:19] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'market.service' doesn't exist | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=
+[2019-07-08 13:47:22] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'market.service' doesn't exist | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
+        
+====================='=

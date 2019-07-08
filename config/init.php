@@ -8,7 +8,7 @@ define("CORE", ROOT . "/vendor/site/core");
 define("LIBS", ROOT . "/vendor/site/core/libs");
 define("CACHE", ROOT . "/tmp/cache");
 define("CONFIG", ROOT . "/config");
-define("LAYOUT", "givi");
+define("LAYOUT", "layout");
 
 //http://shop2.com
 $app_path = "http://{$_SERVER['HTTP_HOST']}";

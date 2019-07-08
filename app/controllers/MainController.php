@@ -6,7 +6,6 @@ use site\App;
 use Swift_Mailer;
 use Swift_Message;
 use Swift_SmtpTransport;
-use app\models\admin\Job;
 
 class MainController extends AppController
 {
@@ -14,26 +13,26 @@ class MainController extends AppController
     public function indexAction()
     {
 
-        $services = \R::find('service', "status = '1'");
-        $employees = \R::find('employee', "status = '1'");
-        $contact = \R::findOne('contact', "id = 1");
+//        $services = \R::find('service', "status = '1'");
+//        $employees = \R::find('employee', "status = '1'");
+//        $contact = \R::findOne('contact', "id = 1");
+//
+//        $modelJob = new Job();
+//        $offset = App::$app->getProperty('countJobs');
+//        $limit = App::$app->getProperty('countJobs');
+//        $jobs = $modelJob->getJobs(0, $limit);
+//        $isShowJobBtn = $modelJob->isShowLoadJobsBtn($offset, $limit);
 
-        $modelJob = new Job();
-        $offset = App::$app->getProperty('countJobs');
-        $limit = App::$app->getProperty('countJobs');
-        $jobs = $modelJob->getJobs(0, $limit);
-        $isShowJobBtn = $modelJob->isShowLoadJobsBtn($offset, $limit);
 
 
-
-        $title = 'GIVI STUDIO - Создание и монтаж видео-контента для YouTube и Instagram';
-        $description = 'Сделаем качественный видеоконтент под Ваши цели. Напишем сценарий и проработаем образы. Также предоставим услугу Пиар. Посмотрите примеры наших работ на сайте!';
+        $title = 'Главная';
+        $description = 'Description';
         $keywords = '';
 
 
 
         $this->setMeta($title, $description, $keywords);
-        $this->setData(compact('services', 'jobs', 'isShowJobBtn', 'offset', 'employees', 'contact'));
+//        $this->setData(compact('services', 'jobs', 'isShowJobBtn', 'offset', 'employees', 'contact'));
     }
 
 

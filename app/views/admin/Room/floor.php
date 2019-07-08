@@ -36,7 +36,7 @@ use app\models\admin\Room;
                             <tbody>
                             <?php foreach ($rooms as $room):?>
                                 <tr>
-                                    <td><?= $room['name'];?></td>
+                                    <td><a href="<?=ADMIN?>/room/edit?id=<?=$room['id'];?>"><?= $room['name'];?></a></td>
                                     <td><?= Room::getFloorName($room['floor']) ?></td>
                                     <td><?= $room['company_name'] ?></td>
                                     <td><?= Room::getStatusName($room['status']) ?></td>
