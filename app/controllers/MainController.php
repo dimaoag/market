@@ -6,6 +6,7 @@ use site\App;
 use Swift_Mailer;
 use Swift_Message;
 use Swift_SmtpTransport;
+use app\models\admin\Room;
 
 class MainController extends AppController
 {
@@ -13,16 +14,9 @@ class MainController extends AppController
     public function indexAction()
     {
 
-//        $services = \R::find('service', "status = '1'");
-//        $employees = \R::find('employee', "status = '1'");
-//        $contact = \R::findOne('contact', "id = 1");
-//
-//        $modelJob = new Job();
-//        $offset = App::$app->getProperty('countJobs');
-//        $limit = App::$app->getProperty('countJobs');
-//        $jobs = $modelJob->getJobs(0, $limit);
-//        $isShowJobBtn = $modelJob->isShowLoadJobsBtn($offset, $limit);
-
+        $firstFloorRooms = \R::getAll("SELECT * FROM room WHERE floor = ? ORDER BY id", [Room::FLOOR_ONE]);
+        $secondFloorRooms = \R::getAll("SELECT * FROM room WHERE floor = ? ORDER BY id", [Room::FLOOR_TWO]);
+        $thirdFloorRooms = \R::getAll("SELECT * FROM room WHERE floor = ? ORDER BY id", [Room::FLOOR_THREE]);
 
 
         $title = 'Главная';
@@ -32,22 +26,9 @@ class MainController extends AppController
 
 
         $this->setMeta($title, $description, $keywords);
-//        $this->setData(compact('services', 'jobs', 'isShowJobBtn', 'offset', 'employees', 'contact'));
+        $this->setData(compact('firstFloorRooms', 'secondFloorRooms', 'thirdFloorRooms'));
     }
 
-
-
-    public function loadJobsAction()
-    {
-        if (!empty($_POST)){
-            $limit = App::$app->getProperty('countJobs');
-            $offset = $_POST['offset'] ? (int)$_POST['offset'] : null;
-            if (!$offset) return false;
-            $modelGallery = new Job();
-            echo $modelGallery->getJobsViaAjax($offset, $limit);
-        }
-        die();
-    }
 
 
 
@@ -109,7 +90,6 @@ class MainController extends AppController
     public function sendServiceAction()
     {
         if (!empty($_POST)){
-
 
             $username = $_POST['username'] ? trim(htmlspecialchars($_POST['username'])) : null;
             $phone = $_POST['phone'] ? trim(htmlspecialchars(str_replace(" ", "", $_POST['phone']))) : null;

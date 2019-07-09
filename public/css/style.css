@@ -2101,3 +2101,7 @@ a:hover {
         font-size: 16px;
     }
 }
+.free path,
+.free rect{
+    fill: green;
+}

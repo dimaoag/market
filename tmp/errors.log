@@ -2008,3 +2008,12 @@
 [2019-07-08 13:47:22] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'market.service' doesn't exist | File: /var/www/market/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 194 
         
 ====================='=
+[2019-07-09 09:31:57] Text error: Page not found | File: /var/www/market/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-07-09 09:39:35] Text error: Page not found | File: /var/www/market/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
+[2019-07-09 09:54:42] Text error: Page not found | File: /var/www/market/vendor/site/core/Router.php | Line: 57 
+        
+====================='=
