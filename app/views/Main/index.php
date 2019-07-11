@@ -135,14 +135,9 @@ use app\models\admin\Room;
                     <div id="tab3" class="tab-item">
                         <div class="order-slider">
                             <div class="order-slider-item">
-                                <p class="order-slider-floor">
-                                    Левое крыло
-                                </p>
+                                <p class="order-slider-floor">Левое крыло</p>
                                 <div class="floor-content floor-content-left">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                         version="1.1" x="0px" y="0px" viewBox="0 0 1189 338"
-                                         style="enable-background:new 0 0 1189 338;" xml:space="preserve" width="1189"
-                                         height="338">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 1189 338" xml:space="preserve" width="1189" height="338">
 									<style type="text/css">
                                         .floor-content-left .st0 {
                                             fill: #CACACA;
@@ -178,76 +173,56 @@ use app\models\admin\Room;
                                             fill: #C3C7CB;
                                         }
                                     </style>
-                                        <g id="leyer_1">
-                                            <rect x="981.9" y="83.2" class="st0" width="1" height="20.4"/>
-                                            <rect x="976.2" y="85.6"
-                                                  transform="matrix(0.7076 -0.7067 0.7067 0.7076 225.8105 717.7162)"
-                                                  class="st0" width="7.6" height="1"/>
-                                            <rect x="984.4" y="82.2"
-                                                  transform="matrix(0.7071 -0.7071 0.7071 0.7071 227.638 721.6356)"
-                                                  class="st0" width="1" height="7.6"/>
-                                            <rect x="997.9" y="83" class="st0" width="1" height="20.4"/>
-                                            <rect x="995.6" y="96.8"
-                                                  transform="matrix(0.7067 -0.7076 0.7076 0.7067 220.9973 734.2618)"
-                                                  class="st0" width="1" height="7.6"/>
-                                            <rect x="997" y="100.1"
-                                                  transform="matrix(0.7071 -0.7071 0.7071 0.7071 221.9815 737.1182)"
-                                                  class="st0" width="7.6" height="1"/>
-                                            <rect x="973.5" y="0.5" class="st1" width="34" height="6"/>
-                                            <rect x="973.5" y="6.5" class="st1" width="34" height="6"/>
-                                            <rect x="973.5" y="12.5" class="st1" width="34" height="6"/>
-                                            <rect x="973.5" y="18.5" class="st1" width="34" height="6"/>
-                                            <rect x="973.5" y="24.5" class="st1" width="34" height="6"/>
-                                            <rect x="973.5" y="30.5" class="st1" width="34" height="6"/>
-                                            <rect x="973.5" y="36.5" class="st1" width="34" height="6"/>
-                                            <rect x="973.5" y="42.5" class="st1" width="34" height="6"/>
-                                            <rect x="973.5" y="48.5" class="st1" width="34" height="6"/>
-                                            <rect x="973.5" y="54.5" class="st1" width="34" height="6"/>
-                                            <rect x="973.5" y="60.5" class="st1" width="34" height="6"/>
-                                            <rect x="973.5" y="66.5" class="st1" width="34" height="6"/>
-                                            <rect x="1006" y="0" class="st2" width="1" height="73"/>
-                                            <rect x="974" y="0" class="st2" width="1" height="73"/>
-                                            <rect x="1188" y="0" class="st2" width="1" height="335"/>
-                                            <rect x="1" y="0.3" class="st2" width="1" height="283.5"/>
-                                            <rect x="0.2" y="0" class="st2" width="1188.8" height="0.6"/>
+                                        <g id="layer_1">
+                                            <rect x="981.9" y="83.2" class="st0" width="1" height="20.4"></rect>
+                                            <rect x="976.2" y="85.6" transform="matrix(0.7076 -0.7067 0.7067 0.7076 225.8105 717.7162)" class="st0" width="7.6" height="1"></rect>
+                                            <rect x="984.4" y="82.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 227.638 721.6356)" class="st0" width="1" height="7.6"></rect>
+                                            <rect x="997.9" y="83" class="st0" width="1" height="20.4"></rect>
+                                            <rect x="995.6" y="96.8" transform="matrix(0.7067 -0.7076 0.7076 0.7067 220.9973 734.2618)" class="st0" width="1" height="7.6"></rect>
+                                            <rect x="997" y="100.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 221.9815 737.1182)" class="st0" width="7.6" height="1"></rect>
+                                            <rect x="973.5" y="0.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="973.5" y="6.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="973.5" y="12.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="973.5" y="18.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="973.5" y="24.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="973.5" y="30.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="973.5" y="36.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="973.5" y="42.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="973.5" y="48.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="973.5" y="54.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="973.5" y="60.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="973.5" y="66.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="1006" y="0" class="st2" width="1" height="73"></rect>
+                                            <rect x="974" y="0" class="st2" width="1" height="73"></rect>
+                                            <rect x="1188" y="0" class="st2" width="1" height="335"></rect>
+                                            <rect x="1" y="0.3" class="st2" width="1" height="283.5"></rect>
+                                            <rect x="0.2" y="0" class="st2" width="1188.8" height="0.6"></rect>
                                         </g>
-                                        <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[16]) ?>>
                                             <g id="c17">
-                                                <rect x="40.8" y="1" class="st3" width="175" height="139"/>
-                                                <text transform="matrix(1 0 0 1 115.744 75.4396)" class="st4 st5 st6">
-                                                    В17
-                                                </text>
+                                                <rect x="40.8" y="1" class="st3" width="175" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 115.744 75.4396)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[16]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[17]) ?>>
                                             <g id="c18">
-                                                <rect x="240.2" y="1.5" class="st3" width="319" height="139"/>
-                                                <text transform="matrix(1 0 0 1 386.5489 75.9727)" class="st4 st5 st6">
-                                                    В18
-                                                </text>
+                                                <rect x="240.2" y="1.5" class="st3" width="319" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 386.5489 75.9727)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[17]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[18]) ?>>
                                             <g id="C19">
-                                                <path class="st7"
-                                                      d="M972.5,1.5v139.6h78V1.5H1189v336H1V197.9h559.5V1.5H972.5z"/>
-                                                <text transform="matrix(1 0 0 1 765.0114 162.4097)" class="st4 st5 st6">
-                                                    В19
-                                                </text>
+                                                <path class="st7" d="M972.5,1.5v139.6h78V1.5H1189v336H1V197.9h559.5V1.5H972.5z"></path>
+                                                <text transform="matrix(1 0 0 1 765.0114 162.4097)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[18]) ?></text>
                                             </g>
                                         </a>
 									</svg>
                                 </div>
                             </div>
                             <div class="order-slider-item">
-                                <p class="order-slider-floor">
-                                    Правое крыло
-                                </p>
+                                <p class="order-slider-floor">Правое крыло</p>
                                 <div class="floor-content">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                         version="1.1" x="0px" y="0px" viewBox="0 0 1189 338"
-                                         style="enable-background:new 0 0 1189 338;" xml:space="preserve" width="1189"
-                                         height="338">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 1189 338" xml:space="preserve" width="1189" height="338">
 										<style type="text/css">
                                             .st0 {
                                                 fill: #CACACA;
@@ -279,219 +254,165 @@ use app\models\admin\Room;
                                                 font-size: 17px;
                                             }
                                         </style>
-                                        <g id="leyer_1">
-                                            <rect x="1121.9" y="85.2" class="st0" width="1" height="20.4"/>
-                                            <rect x="1116.2" y="87.6"
-                                                  transform="matrix(0.7076 -0.7067 0.7067 0.7076 265.3396 817.2335)"
-                                                  class="st0" width="7.6" height="1"/>
-                                            <rect x="1124.4" y="84.2"
-                                                  transform="matrix(0.7071 -0.7071 0.7071 0.7071 267.2346 821.2227)"
-                                                  class="st0" width="1" height="7.6"/>
-                                            <rect x="1137.9" y="85" class="st0" width="1" height="20.4"/>
-                                            <rect x="1135.6" y="98.8"
-                                                  transform="matrix(0.7067 -0.7076 0.7076 0.7067 260.6497 833.9059)"
-                                                  class="st0" width="1" height="7.6"/>
-                                            <rect x="1137" y="102.1"
-                                                  transform="matrix(0.7071 -0.7071 0.7071 0.7071 261.5672 836.694)"
-                                                  class="st0" width="7.6" height="1"/>
-                                            <rect x="1113.5" y="2.5" class="st1" width="34" height="6"/>
-                                            <rect x="1113.5" y="8.5" class="st1" width="34" height="6"/>
-                                            <rect x="1113.5" y="14.5" class="st1" width="34" height="6"/>
-                                            <rect x="1113.5" y="20.5" class="st1" width="34" height="6"/>
-                                            <rect x="1113.5" y="26.5" class="st1" width="34" height="6"/>
-                                            <rect x="1113.5" y="32.5" class="st1" width="34" height="6"/>
-                                            <rect x="1113.5" y="38.5" class="st1" width="34" height="6"/>
-                                            <rect x="1113.5" y="44.5" class="st1" width="34" height="6"/>
-                                            <rect x="1113.5" y="50.5" class="st1" width="34" height="6"/>
-                                            <rect x="1113.5" y="56.5" class="st1" width="34" height="6"/>
-                                            <rect x="1113.5" y="62.5" class="st1" width="34" height="6"/>
-                                            <rect x="1113.5" y="68.5" class="st1" width="34" height="6"/>
-                                            <rect x="1146" y="2" class="st2" width="1" height="73"/>
-                                            <rect x="1114" y="2" class="st2" width="1" height="73"/>
-                                            <rect x="149.9" y="86.2" class="st0" width="1" height="20.4"/>
-                                            <rect x="144.2" y="88.6"
-                                                  transform="matrix(0.7076 -0.7067 0.7067 0.7076 -19.6251 130.6525)"
-                                                  class="st0" width="7.6" height="1"/>
-                                            <rect x="152.4" y="85.2"
-                                                  transform="matrix(0.7071 -0.7071 0.7071 0.7071 -18.2034 134.1687)"
-                                                  class="st0" width="1" height="7.6"/>
-                                            <rect x="165.9" y="86" class="st0" width="1" height="20.4"/>
-                                            <rect x="163.6" y="99.8"
-                                                  transform="matrix(0.7067 -0.7076 0.7076 0.7067 -25.1842 146.4576)"
-                                                  class="st0" width="1" height="7.6"/>
-                                            <rect x="165" y="103.1"
-                                                  transform="matrix(0.7071 -0.7071 0.7071 0.7071 -23.794 149.7168)"
-                                                  class="st0" width="7.6" height="1"/>
-                                            <rect x="141.5" y="2.5" class="st1" width="34" height="6"/>
-                                            <rect x="141.5" y="8.5" class="st1" width="34" height="6"/>
-                                            <rect x="141.5" y="14.5" class="st1" width="34" height="6"/>
-                                            <rect x="141.5" y="20.5" class="st1" width="34" height="6"/>
-                                            <rect x="141.5" y="26.5" class="st1" width="34" height="6"/>
-                                            <rect x="141.5" y="32.5" class="st1" width="34" height="6"/>
-                                            <rect x="141.5" y="38.5" class="st1" width="34" height="6"/>
-                                            <rect x="141.5" y="44.5" class="st1" width="34" height="6"/>
-                                            <rect x="141.5" y="50.5" class="st1" width="34" height="6"/>
-                                            <rect x="141.5" y="56.5" class="st1" width="34" height="6"/>
-                                            <rect x="141.5" y="62.5" class="st1" width="34" height="6"/>
-                                            <rect x="141.5" y="68.5" class="st1" width="34" height="6"/>
-                                            <rect x="174" y="2" class="st2" width="1" height="73"/>
-                                            <rect x="142" y="2" class="st2" width="1" height="73"/>
-                                            <rect x="3" y="138" class="st2" width="1" height="73"/>
-                                            <rect x="1187" y="2.3" class="st2" width="1" height="334.5"/>
-                                            <rect x="66" y="2" class="st2" width="146" height="1"/>
-                                            <rect x="1100.2" y="2.1" class="st2" width="86.9" height="1"/>
-                                            <rect x="1087.9" y="335.5" class="st2" width="99.2" height="1"/>
-                                            <rect x="69" y="138" class="st2" width="25" height="1"/>
-                                            <rect x="116" y="138" class="st2" width="25" height="1"/>
-                                            <rect x="140" y="3" class="st2" width="1" height="136.1"/>
+                                        <g id="layer_1">
+                                            <rect x="1121.9" y="85.2" class="st0" width="1" height="20.4"></rect>
+                                            <rect x="1116.2" y="87.6" transform="matrix(0.7076 -0.7067 0.7067 0.7076 265.3396 817.2335)" class="st0" width="7.6" height="1"></rect>
+                                            <rect x="1124.4" y="84.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 267.2346 821.2227)" class="st0" width="1" height="7.6"></rect>
+                                            <rect x="1137.9" y="85" class="st0" width="1" height="20.4"></rect>
+                                            <rect x="1135.6" y="98.8" transform="matrix(0.7067 -0.7076 0.7076 0.7067 260.6497 833.9059)" class="st0" width="1" height="7.6"></rect>
+                                            <rect x="1137" y="102.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 261.5672 836.694)" class="st0" width="7.6" height="1"></rect>
+                                            <rect x="1113.5" y="2.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="1113.5" y="8.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="1113.5" y="14.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="1113.5" y="20.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="1113.5" y="26.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="1113.5" y="32.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="1113.5" y="38.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="1113.5" y="44.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="1113.5" y="50.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="1113.5" y="56.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="1113.5" y="62.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="1113.5" y="68.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="1146" y="2" class="st2" width="1" height="73"></rect>
+                                            <rect x="1114" y="2" class="st2" width="1" height="73"></rect>
+                                            <rect x="149.9" y="86.2" class="st0" width="1" height="20.4"></rect>
+                                            <rect x="144.2" y="88.6" transform="matrix(0.7076 -0.7067 0.7067 0.7076 -19.6251 130.6525)" class="st0" width="7.6" height="1"></rect>
+                                            <rect x="152.4" y="85.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -18.2034 134.1687)" class="st0" width="1" height="7.6"></rect>
+                                            <rect x="165.9" y="86" class="st0" width="1" height="20.4"></rect>
+                                            <rect x="163.6" y="99.8" transform="matrix(0.7067 -0.7076 0.7076 0.7067 -25.1842 146.4576)" class="st0" width="1" height="7.6"></rect>
+                                            <rect x="165" y="103.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -23.794 149.7168)" class="st0" width="7.6" height="1"></rect>
+                                            <rect x="141.5" y="2.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="141.5" y="8.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="141.5" y="14.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="141.5" y="20.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="141.5" y="26.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="141.5" y="32.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="141.5" y="38.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="141.5" y="44.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="141.5" y="50.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="141.5" y="56.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="141.5" y="62.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="141.5" y="68.5" class="st1" width="34" height="6"></rect>
+                                            <rect x="174" y="2" class="st2" width="1" height="73"></rect>
+                                            <rect x="142" y="2" class="st2" width="1" height="73"></rect>
+                                            <rect x="3" y="138" class="st2" width="1" height="73"></rect>
+                                            <rect x="1187" y="2.3" class="st2" width="1" height="334.5"></rect>
+                                            <rect x="66" y="2" class="st2" width="146" height="1"></rect>
+                                            <rect x="1100.2" y="2.1" class="st2" width="86.9" height="1"></rect>
+                                            <rect x="1087.9" y="335.5" class="st2" width="99.2" height="1"></rect>
+                                            <rect x="69" y="138" class="st2" width="25" height="1"></rect>
+                                            <rect x="116" y="138" class="st2" width="25" height="1"></rect>
+                                            <rect x="140" y="3" class="st2" width="1" height="136.1"></rect>
                                         </g>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[0]) ?>>
                                             <g id="d1">
-                                                <rect x="1.9" y="1.2" class="st3" width="69" height="139"/>
-                                                <text transform="matrix(1 0 0 1 28.0908 75.7031)" class="st4 st5 st6">
-                                                    В1
-                                                </text>
+                                                <rect x="1.9" y="1.2" class="st3" width="69" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 28.0908 75.7031)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[0]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[1]) ?>>
                                             <g id="d2">
-                                                <rect x="2.4" y="198.2" class="st3" width="139" height="139"/>
-                                                <text transform="matrix(1 0 0 1 62.3395 272.7183)" class="st4 st5 st6">
-                                                    В2
-                                                </text>
+                                                <rect x="2.4" y="198.2" class="st3" width="139" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 62.3395 272.7183)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[1]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[2]) ?>>
                                             <g id="d3">
-                                                <rect x="211.5" y="1.3" class="st3" width="69" height="139"/>
-                                                <text transform="matrix(1 0 0 1 236.1034 75.7965)" class="st4 st5 st6">
-                                                    В3
-                                                </text>
+                                                <rect x="211.5" y="1.3" class="st3" width="69" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 236.1034 75.7965)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[2]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[3]) ?>>
                                             <g id="d4">
-                                                <rect x="140.9" y="198.1" class="st3" width="488.4" height="139"/>
-                                                <text transform="matrix(1 0 0 1 374.9638 272.5831)" class="st4 st5 st6">
-                                                    В4
-                                                </text>
+                                                <rect x="140.9" y="198.1" class="st3" width="488.4" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 374.9638 272.5831)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[3]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[4]) ?>>
                                             <g id="d5">
-                                                <rect x="281" y="1.1" class="st3" width="139" height="139"/>
-                                                <text transform="matrix(1 0 0 1 340.5882 75.6096)" class="st4 st5 st6">
-                                                    В5
-                                                </text>
+                                                <rect x="281" y="1.1" class="st3" width="139" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 340.5882 75.6096)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[4]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[5]) ?>>
                                             <g id="d6">
-                                                <rect x="419.9" y="1.4" class="st3" width="209" height="139"/>
-                                                <text transform="matrix(1 0 0 1 514.2765 75.9198)" class="st4 st5 st6">
-                                                    В6
-                                                </text>
+                                                <rect x="419.9" y="1.4" class="st3" width="209" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 514.2765 75.9198)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[5]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[6]) ?>>
                                             <g id="c7">
-                                                <rect x="629" y="1.6" class="st3" width="34" height="139"/>
-                                                <text transform="matrix(1 0 0 1 636.8398 76.06)" class="st4 st5 st6">
-                                                    В7
-                                                </text>
+                                                <rect x="629" y="1.6" class="st3" width="34" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 636.8398 76.06)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[6]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[7]) ?>>
                                             <g id="c8">
-                                                <rect x="662.8" y="1.6" class="st3" width="34" height="139"/>
-                                                <text transform="matrix(1 0 0 1 669.7324 76.06)" class="st4 st5 st6">
-                                                    В8
-                                                </text>
+                                                <rect x="662.8" y="1.6" class="st3" width="34" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 669.7324 76.06)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[7]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[8]) ?>>
                                             <g id="c9">
-                                                <rect x="629" y="197.9" class="st3" width="379.4" height="139"/>
-                                                <text transform="matrix(1 0 0 1 806.5486 272.3655)" class="st4 st5 st6">
-                                                    В9
-                                                </text>
+                                                <rect x="629" y="197.9" class="st3" width="379.4" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 806.5486 272.3655)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[8]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[9]) ?>>
                                             <g id="c10">
-                                                <rect x="696.6" y="1.4" class="st3" width="104" height="139"/>
-                                                <text transform="matrix(1 0 0 1 734.9091 75.9198)" class="st4 st5 st6">
-                                                    В10
-                                                </text>
+                                                <rect x="696.6" y="1.4" class="st3" width="104" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 734.9091 75.9198)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[9]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[10]) ?>>
                                             <g id="c11">
-                                                <rect x="800.4" y="1.4" class="st3" width="34" height="139"/>
-                                                <text transform="matrix(1 0 0 1 805.803 75.9198)" class="st4 st5 st6">
-                                                    В11
-                                                </text>
+                                                <rect x="800.4" y="1.4" class="st3" width="34" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 805.803 75.9198)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[10]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[11]) ?>>
                                             <g id="c12">
-                                                <rect x="834.8" y="1.4" class="st3" width="69" height="139"/>
-                                                <text transform="matrix(1 0 0 1 856.4611 75.9198)" class="st4 st5 st6">
-                                                    В12
-                                                </text>
+                                                <rect x="834.8" y="1.4" class="st3" width="69" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 856.4611 75.9198)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[11]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[12]) ?>>
                                             <g id="c13">
-                                                <rect x="904.3" y="1.4" class="st3" width="139" height="139"/>
-                                                <text transform="matrix(1 0 0 1 960.7925 75.9198)" class="st4 st5 st6">
-                                                    В13
-                                                </text>
+                                                <rect x="904.3" y="1.4" class="st3" width="139" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 960.7925 75.9198)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[12]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[13]) ?>>
                                             <g id="c14">
-                                                <rect x="1008.6" y="198.4" class="st3" width="34" height="139"/>
-                                                <text transform="matrix(1 0 0 1 1012.312 272.8901)" class="st4 st5 st6">
-                                                    В14
-                                                </text>
+                                                <rect x="1008.6" y="198.4" class="st3" width="34" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 1012.312 272.8901)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[13]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[14]) ?>>
                                             <g id="c15">
-                                                <rect x="1043" y="1.4" class="st3" width="69" height="139"/>
-                                                <text transform="matrix(1 0 0 1 1064.5374 75.9198)" class="st4 st5 st6">
-                                                    В15
-                                                </text>
+                                                <rect x="1043" y="1.4" class="st3" width="69" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 1064.5374 75.9198)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[14]) ?></text>
                                             </g>
                                         </a>
-                                        <a href="#" class="link-in-svg" tabindex="1" data-href="room.html">
+                                        <a <?= RoomHelper::getTagOptions($thirdFloorRooms[15]) ?>>
                                             <g id="c16">
-                                                <rect x="1043.3" y="198.3" class="st3" width="68.8" height="139"/>
-                                                <text transform="matrix(1 0 0 1 1063.6794 272.791)" class="st4 st5 st6">
-                                                    В16
-                                                </text>
+                                                <rect x="1043.3" y="198.3" class="st3" width="68.8" height="139"></rect>
+                                                <text transform="matrix(1 0 0 1 1063.6794 272.791)" class="st4 st5 st6"><?= RoomHelper::getText($thirdFloorRooms[15]) ?></text>
                                             </g>
                                         </a>
-										</svg>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
                         <div class="order-button_wrapper">
                             <button class="order-prev slider-arrow">
-                                    <span class="visually-hidden">
-                                        Назад
-                                    </span>
+                                <span class="visually-hidden">Назад</span>
                             </button>
                             <button class="order-next slider-arrow">
-                                    <span class="visually-hidden">
-                                        Вперед
-                                    </span>
+                                <span class="visually-hidden">Вперед</span>
                             </button>
                         </div>
-                        <p class="order-section-title">
-                            Левое и правое крыло
-                        </p>
+                        <p class="order-section-title">Левое и правое крыло</p>
                     </div>
                     <div id="tab2" class="tab-item">
                         <div class="floor-content">
@@ -964,7 +885,7 @@ use app\models\admin\Room;
                             <button type="submit" class="button">
                                 отправить
                                 <span class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none"><g clip-path="url(#clip4)"><path d="M9.15139 5.4999L4.99091 1.33964C4.69193 1.04054 4.69193 0.555661 4.99091 0.256677C5.2899 -0.0424275 5.77475 -0.0424275 6.07385 0.256677L10.7759 4.95861C10.9254 5.10818 11 5.30399 11 5.4999C11 5.69589 10.9252 5.89184 10.7759 6.04134L6.07385 10.7432C5.77475 11.0425 5.28987 11.0425 4.99091 10.7432C4.69193 10.4442 4.69193 9.95932 4.99091 9.66036L9.15139 5.4999ZM0.224238 9.66036C-0.0747459 9.95934 -0.0747459 10.4443 0.224238 10.7432C0.523221 11.0425 1.00793 11.0425 1.3072 10.7432L6.00921 6.04136C6.1587 5.89187 6.23324 5.69591 6.23324 5.49993C6.23324 5.30402 6.15856 5.10806 6.00921 4.95864L1.3072 0.256677C1.00795 -0.0424275 0.523221 -0.0424275 0.224238 0.256677C-0.0747459 0.555661 -0.0747459 1.04051 0.224238 1.33964L4.38481 5.4999L0.224238 9.66036Z" fill="white"/></g><defs><clipPath id="clip4"><rect width="11" height="11" fill="white"/></clipPath></defs></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none"><g clip-path="url(#clip4)"><path d="M9.15139 5.4999L4.99091 1.33964C4.69193 1.04054 4.69193 0.555661 4.99091 0.256677C5.2899 -0.0424275 5.77475 -0.0424275 6.07385 0.256677L10.7759 4.95861C10.9254 5.10818 11 5.30399 11 5.4999C11 5.69589 10.9252 5.89184 10.7759 6.04134L6.07385 10.7432C5.77475 11.0425 5.28987 11.0425 4.99091 10.7432C4.69193 10.4442 4.69193 9.95932 4.99091 9.66036L9.15139 5.4999ZM0.224238 9.66036C-0.0747459 9.95934 -0.0747459 10.4443 0.224238 10.7432C0.523221 11.0425 1.00793 11.0425 1.3072 10.7432L6.00921 6.04136C6.1587 5.89187 6.23324 5.69591 6.23324 5.49993C6.23324 5.30402 6.15856 5.10806 6.00921 4.95864L1.3072 0.256677C1.00795 -0.0424275 0.523221 -0.0424275 0.224238 0.256677C-0.0747459 0.555661 -0.0747459 1.04051 0.224238 1.33964L4.38481 5.4999L0.224238 9.66036Z" fill="white"></path</g><defs><clipPath id="clip4"><rect width="11" height="11" fill="white"></rect></clipPath></defs></svg>
                                 </span>
                             </button>
                         </li>
