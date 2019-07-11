@@ -31,14 +31,8 @@ use app\models\admin\Room;
                 <a href="#order-room-anchor" class="button anchor" tabindex="0">
                     Выбрать помещение
                     <span class="icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11"
-                                 fill="none"><g clip-path="url(#clip2)"><path
-                                            d="M5.5001 9.15139L9.66036 4.99091C9.95946 4.69193 10.4443 4.69193 10.7433 4.99091C11.0424 5.2899 11.0424 5.77475 10.7433 6.07385L6.04138 10.7759C5.89182 10.9254 5.69601 11 5.5001 11C5.30411 11 5.10816 10.9252 4.95866 10.7759L0.256776 6.07385C-0.042475 5.77475 -0.042475 5.28987 0.256776 4.99091C0.555759 4.69193 1.04068 4.69193 1.33964 4.99091L5.5001 9.15139ZM1.33964 0.224237C1.04066 -0.0747463 0.555735 -0.0747464 0.256776 0.224237C-0.0424748 0.523221 -0.0424748 1.00793 0.256776 1.3072L4.95864 6.00921C5.10813 6.1587 5.30409 6.23324 5.50007 6.23324C5.69598 6.23324 5.89194 6.15856 6.04136 6.00921L10.7433 1.3072C11.0424 1.00795 11.0424 0.523221 10.7433 0.224238C10.4443 -0.0747459 9.95949 -0.0747459 9.66036 0.224238L5.5001 4.38481L1.33964 0.224237Z"
-                                            fill="white"></path></g><defs><clipPath id="clip2"><rect width="11"
-                                                                                                     height="11"
-                                                                                                     fill="white"
-                                                                                                     transform="translate(11) rotate(90)"></rect></clipPath></defs></svg>
-                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none"><g clip-path="url(#clip2)"><path d="M5.5001 9.15139L9.66036 4.99091C9.95946 4.69193 10.4443 4.69193 10.7433 4.99091C11.0424 5.2899 11.0424 5.77475 10.7433 6.07385L6.04138 10.7759C5.89182 10.9254 5.69601 11 5.5001 11C5.30411 11 5.10816 10.9252 4.95866 10.7759L0.256776 6.07385C-0.042475 5.77475 -0.042475 5.28987 0.256776 4.99091C0.555759 4.69193 1.04068 4.69193 1.33964 4.99091L5.5001 9.15139ZM1.33964 0.224237C1.04066 -0.0747463 0.555735 -0.0747464 0.256776 0.224237C-0.0424748 0.523221 -0.0424748 1.00793 0.256776 1.3072L4.95864 6.00921C5.10813 6.1587 5.30409 6.23324 5.50007 6.23324C5.69598 6.23324 5.89194 6.15856 6.04136 6.00921L10.7433 1.3072C11.0424 1.00795 11.0424 0.523221 10.7433 0.224238C10.4443 -0.0747459 9.95949 -0.0747459 9.66036 0.224238L5.5001 4.38481L1.33964 0.224237Z" fill="white"></path></g><defs><clipPath id="clip2"><rect width="11" height="11" fill="white" transform="translate(11) rotate(90)"></rect></clipPath></defs></svg>
+                    </span>
                 </a>
             </div>
             <div class="slider">
@@ -77,14 +71,14 @@ use app\models\admin\Room;
             </div>
             <div class="main-slider-button">
                 <button type="button" class="slider-arrow slider-prev">
-                        <span class="visually-hidden">
-                            Назад
-                        </span>
+                    <span class="visually-hidden">
+                        Назад
+                    </span>
                 </button>
                 <button type="button" class="slider-arrow slider-next">
-                        <span class="visually-hidden">
-                            Вперед
-                        </span>
+                    <span class="visually-hidden">
+                        Вперед
+                    </span>
                 </button>
             </div>
         </div>
@@ -501,10 +495,7 @@ use app\models\admin\Room;
                     </div>
                     <div id="tab2" class="tab-item">
                         <div class="floor-content">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                 version="1.1" id="Слой_1" x="0px" y="0px" viewBox="0 0 1119 338"
-                                 style="enable-background:new 0 0 1119 338;" xml:space="preserve" width="1119"
-                                 height="336">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Слой_1" x="0px" y="0px" viewBox="0 0 1119 338" xml:space="preserve" width="1119" height="336">
 							<style type="text/css">
                                 #tab2 .st0 {
                                     fill: #C4C4C4;
@@ -541,248 +532,225 @@ use app\models\admin\Room;
                                     stroke: #FFFFFF;
                                 }
 
-                                #tab2 .st8 {
-                                    enable-background: new;
-                                }
-
                                 #tab2 .st9 {
                                     font-family: "Gilroy", Arial, sans-serif;
                                 }
 
                                 #tab2 .st10 {
-                                    font-family: 'ArialMT';
+                                    font-family: 'ArialMT', Arial, sans-serif;;
                                 }
                             </style>
                                 <g id="group">
-                                    <rect x="0.9" y="2" class="st0" width="80" height="1"/>
-                                    <rect x="9.8" y="84.2" class="st1" width="1" height="20.4"/>
-                                    <rect x="4.1" y="86.6"
-                                          transform="matrix(0.7076 -0.7067 0.7067 0.7076 -59.1835 31.0646)" class="st1"
-                                          width="7.6" height="1"/>
-                                    <rect x="12.3" y="83.2"
-                                          transform="matrix(0.7071 -0.7071 0.7071 0.7071 -57.829 34.5117)" class="st1"
-                                          width="1" height="7.6"/>
-                                    <rect x="25.8" y="84" class="st1" width="1" height="20.4"/>
-                                    <rect x="23.5" y="97.8"
-                                          transform="matrix(0.7067 -0.7076 0.7076 0.7067 -64.866 46.7427)" class="st1"
-                                          width="1" height="7.6"/>
-                                    <rect x="24.9" y="101.1"
-                                          transform="matrix(0.7071 -0.7071 0.7071 0.7071 -63.4087 50.071)" class="st1"
-                                          width="7.6" height="1"/>
-                                    <rect x="1.4" y="2.5" class="st2" width="34" height="6"/>
-                                    <rect x="1.4" y="8.5" class="st2" width="34" height="6"/>
-                                    <rect x="1.4" y="14.5" class="st2" width="34" height="6"/>
-                                    <rect x="1.4" y="20.5" class="st2" width="34" height="6"/>
-                                    <rect x="1.4" y="26.5" class="st2" width="34" height="6"/>
-                                    <rect x="1.4" y="32.5" class="st2" width="34" height="6"/>
-                                    <rect x="1.4" y="38.5" class="st2" width="34" height="6"/>
-                                    <rect x="1.4" y="44.5" class="st2" width="34" height="6"/>
-                                    <rect x="1.4" y="50.5" class="st2" width="34" height="6"/>
-                                    <rect x="1.4" y="56.5" class="st2" width="34" height="6"/>
-                                    <rect x="1.4" y="62.5" class="st2" width="34" height="6"/>
-                                    <rect x="1.4" y="68.5" class="st2" width="34" height="6"/>
-                                    <rect x="33.9" y="2" class="st0" width="1" height="73"/>
-                                    <rect x="1.9" y="2" class="st0" width="1" height="73"/>
-                                    <path class="st0" d="M2.1,2.1h1.4v334.5H2.1V2.1z"/>
-                                    <rect x="930.1" y="84.3" class="st1" width="1" height="20.4"/>
-                                    <rect x="924.4" y="86.6"
-                                          transform="matrix(0.7076 -0.7067 0.7067 0.7076 209.881 681.3899)" class="st1"
-                                          width="7.6" height="1"/>
-
-                                    <rect x="932.5" y="83.3"
-                                          transform="matrix(0.7071 -0.7071 0.7071 0.7071 211.6828 685.2846)" class="st1"
-                                          width="1" height="7.6"/>
-                                    <rect x="946.1" y="84.1" class="st1" width="1" height="20.4"/>
-
-                                    <rect x="943.7" y="97.9"
-                                          transform="matrix(0.7067 -0.7076 0.7076 0.7067 205.0205 697.8901)" class="st1"
-                                          width="1" height="7.6"/>
-
-                                    <rect x="945.2" y="101.2"
-                                          transform="matrix(0.7071 -0.7071 0.7071 0.7071 206.0305 700.7712)" class="st1"
-                                          width="7.6" height="1"/>
-                                    <rect x="921.6" y="2.6" class="st2" width="34" height="6"/>
-                                    <rect x="921.6" y="8.6" class="st2" width="34" height="6"/>
-                                    <rect x="921.6" y="14.6" class="st2" width="34" height="6"/>
-                                    <rect x="921.6" y="20.6" class="st2" width="34" height="6"/>
-                                    <rect x="921.6" y="26.6" class="st2" width="34" height="6"/>
-                                    <rect x="921.6" y="32.6" class="st2" width="34" height="6"/>
-                                    <rect x="921.6" y="38.6" class="st2" width="34" height="6"/>
-                                    <rect x="921.6" y="44.6" class="st2" width="34" height="6"/>
-                                    <rect x="921.6" y="50.6" class="st2" width="34" height="6"/>
-                                    <rect x="921.6" y="56.6" class="st2" width="34" height="6"/>
-                                    <rect x="921.6" y="62.6" class="st2" width="34" height="6"/>
-                                    <rect x="921.6" y="68.6" class="st2" width="34" height="6"/>
-                                    <rect x="954.1" y="2.1" class="st0" width="1" height="73"/>
-                                    <rect x="1115.1" y="140.1" class="st0" width="1" height="61"/>
-                                    <rect x="917.4" y="2.1" class="st0" width="76.5" height="1"/>
-                                    <rect x="2.8" y="335.1" class="st0" width="80" height="1"/>
-                                    <rect x="920.1" y="2.1" class="st0" width="1" height="73"/>
+                                    <rect x="0.9" y="2" class="st0" width="80" height="1"></rect>
+                                    <rect x="9.8" y="84.2" class="st1" width="1" height="20.4"></rect>
+                                    <rect x="4.1" y="86.6" transform="matrix(0.7076 -0.7067 0.7067 0.7076 -59.1835 31.0646)" class="st1" width="7.6" height="1"></rect>
+                                    <rect x="12.3" y="83.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -57.829 34.5117)" class="st1" width="1" height="7.6"></rect>
+                                    <rect x="25.8" y="84" class="st1" width="1" height="20.4"></rect>
+                                    <rect x="23.5" y="97.8" transform="matrix(0.7067 -0.7076 0.7076 0.7067 -64.866 46.7427)" class="st1" width="1" height="7.6"></rect>
+                                    <rect x="24.9" y="101.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -63.4087 50.071)" class="st1" width="7.6" height="1"></rect>
+                                    <rect x="1.4" y="2.5" class="st2" width="34" height="6"></rect>
+                                    <rect x="1.4" y="8.5" class="st2" width="34" height="6"></rect>
+                                    <rect x="1.4" y="14.5" class="st2" width="34" height="6"></rect>
+                                    <rect x="1.4" y="20.5" class="st2" width="34" height="6"></rect>
+                                    <rect x="1.4" y="26.5" class="st2" width="34" height="6"></rect>
+                                    <rect x="1.4" y="32.5" class="st2" width="34" height="6"></rect>
+                                    <rect x="1.4" y="38.5" class="st2" width="34" height="6"></rect>
+                                    <rect x="1.4" y="44.5" class="st2" width="34" height="6"></rect>
+                                    <rect x="1.4" y="50.5" class="st2" width="34" height="6"></rect>
+                                    <rect x="1.4" y="56.5" class="st2" width="34" height="6"></rect>
+                                    <rect x="1.4" y="62.5" class="st2" width="34" height="6"></rect>
+                                    <rect x="1.4" y="68.5" class="st2" width="34" height="6"></rect>
+                                    <rect x="33.9" y="2" class="st0" width="1" height="73"></rect>
+                                    <rect x="1.9" y="2" class="st0" width="1" height="73"></rect>
+                                    <path class="st0" d="M2.1,2.1h1.4v334.5H2.1V2.1z"></path>
+                                    <rect x="930.1" y="84.3" class="st1" width="1" height="20.4"></rect>
+                                    <rect x="924.4" y="86.6" transform="matrix(0.7076 -0.7067 0.7067 0.7076 209.881 681.3899)" class="st1" width="7.6" height="1"></rect>
+                                    <rect x="932.5" y="83.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 211.6828 685.2846)" class="st1" width="1" height="7.6"></rect>
+                                    <rect x="946.1" y="84.1" class="st1" width="1" height="20.4"></rect>
+                                    <rect x="943.7" y="97.9" transform="matrix(0.7067 -0.7076 0.7076 0.7067 205.0205 697.8901)" class="st1" width="1" height="7.6"></rect>
+                                    <rect x="945.2" y="101.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 206.0305 700.7712)" class="st1" width="7.6" height="1"></rect>
+                                    <rect x="921.6" y="2.6" class="st2" width="34" height="6"></rect>
+                                    <rect x="921.6" y="8.6" class="st2" width="34" height="6"></rect>
+                                    <rect x="921.6" y="14.6" class="st2" width="34" height="6"></rect>
+                                    <rect x="921.6" y="20.6" class="st2" width="34" height="6"></rect>
+                                    <rect x="921.6" y="26.6" class="st2" width="34" height="6"></rect>
+                                    <rect x="921.6" y="32.6" class="st2" width="34" height="6"></rect>
+                                    <rect x="921.6" y="38.6" class="st2" width="34" height="6"></rect>
+                                    <rect x="921.6" y="44.6" class="st2" width="34" height="6"></rect>
+                                    <rect x="921.6" y="50.6" class="st2" width="34" height="6"></rect>
+                                    <rect x="921.6" y="56.6" class="st2" width="34" height="6"></rect>
+                                    <rect x="921.6" y="62.6" class="st2" width="34" height="6"></rect>
+                                    <rect x="921.6" y="68.6" class="st2" width="34" height="6"></rect>
+                                    <rect x="954.1" y="2.1" class="st0" width="1" height="73"></rect>
+                                    <rect x="1115.1" y="140.1" class="st0" width="1" height="61"></rect>
+                                    <rect x="917.4" y="2.1" class="st0" width="76.5" height="1"></rect>
+                                    <rect x="2.8" y="335.1" class="st0" width="80" height="1"></rect>
+                                    <rect x="920.1" y="2.1" class="st0" width="1" height="73"></rect>
                                 </g>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[0]) ?>>
                                     <g id="b1">
-                                        <rect x="67.9" y="1" class="st3" width="139" height="139"/>
-                                        <text transform="matrix(1 0 0 1 129.2875 75.5699)" class="st4 st5 st6">Б1</text>
+                                        <rect x="67.9" y="1" class="st3" width="139" height="139"></rect>
+                                        <text transform="matrix(1 0 0 1 129.2875 75.5699)" class="st4 st5 st6"><?= RoomHelper::getText($secondFloorRooms[0]) ?></text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[1]) ?>>
                                     <g id="b2">
-                                        <rect x="68.8" y="198.1" class="st3" width="69" height="139"/>
-                                        <text transform="matrix(1 0 0 1 93.6569 272.6448)" class="st4 st5 st6">Б2</text>
+                                        <rect x="68.8" y="198.1" class="st3" width="69" height="139"></rect>
+                                        <text transform="matrix(1 0 0 1 93.6569 272.6448)" class="st4 st5 st6"><?= RoomHelper::getText($secondFloorRooms[1]) ?></text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[2]) ?>>
                                     <g id="b4">
-                                        <rect x="207.1" y="0.9" class="st7" width="69" height="139"/>
+                                        <rect x="207.1" y="0.9" class="st7" width="69" height="139"></rect>
                                         <text transform="matrix(1 0 0 1 223.8766 66.3546)" class="st8">
-                                            <tspan x="0" y="0" class="st4 st5 st6">Б3-</tspan>
-                                            <tspan x="0" y="20.4" class="st4 st5 st6">42м</tspan>
+                                            <tspan x="0" y="0" class="st4 st5 st6"><?= $secondFloorRooms[2]['name'] . $text = $secondFloorRooms[2]['status'] == Room::STATUS_FREE ? '-' : '' ?></tspan>
+                                            <?php if ($secondFloorRooms[2]['status'] == Room::STATUS_FREE): ?>
+                                            <tspan x="0" y="20.4" class="st4 st5 st6"><?= $secondFloorRooms[2]['area'] ?>м</tspan>
                                             <tspan x="29.7" y="20.4" class="st4 st9 st6">²</tspan>
+                                            <?php endif; ?>
                                         </text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[3]) ?>>
                                     <g id="b4">
-                                        <rect x="138.3" y="198" class="st3" width="69" height="139"/>
-                                        <text transform="matrix(1 0 0 1 162.8467 272.5459)" class="st4 st5 st6">Б4
-                                        </text>
+                                        <rect x="138.3" y="198" class="st3" width="69" height="139"></rect>
+                                        <text transform="matrix(1 0 0 1 162.8467 272.5459)" class="st4 st5 st6"><?= RoomHelper::getText($secondFloorRooms[3]) ?></text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[4]) ?>>
                                     <g id="b5">
-                                        <rect x="276.9" y="0.9" class="st3" width="69" height="139"/>
-                                        <text transform="matrix(1 0 0 1 301.6559 75.3546)" class="st4 st5 st6">Б5</text>
+                                        <rect x="276.9" y="0.9" class="st3" width="69" height="139"></rect>
+                                        <text transform="matrix(1 0 0 1 301.6559 75.3546)" class="st4 st5 st6"><?= RoomHelper::getText($secondFloorRooms[4]) ?></text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[5]) ?>>
                                     <g id="b6">
-                                        <rect x="208.1" y="198" class="st3" width="69" height="139"/>
-                                        <text transform="matrix(1 0 0 1 232.8086 272.5459)" class="st4 st5 st6">Б6
-                                        </text>
+                                        <rect x="208.1" y="198" class="st3" width="69" height="139"></rect>
+                                        <text transform="matrix(1 0 0 1 232.8086 272.5459)" class="st4 st5 st6"><?= RoomHelper::getText($secondFloorRooms[5]) ?></text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[6]) ?>>
                                     <g id="b7">
-                                        <rect x="346.7" y="1" class="st7" width="69" height="139"/>
+                                        <rect x="346.7" y="1" class="st7" width="69" height="139"></rect>
                                         <text transform="matrix(1 0 0 1 362.7493 65.2085)">
-                                            <tspan x="0" y="0" class="st4 st5 st6">Б7-</tspan>
-                                            <tspan x="0" y="20.4" class="st4 st5 st6">42м</tspan>
-                                            <tspan x="29.7" y="20.4" class="st4 st9 st6">²</tspan>
+                                            <tspan x="0" y="0" class="st4 st5 st6"><?= $secondFloorRooms[6]['name'] . $text = $secondFloorRooms[6]['status'] == Room::STATUS_FREE ? '-' : '' ?></tspan>
+                                            <?php if ($secondFloorRooms[6]['status'] == Room::STATUS_FREE): ?>
+                                                <tspan x="0" y="20.4" class="st4 st5 st6"><?= $secondFloorRooms[6]['area'] ?>м</tspan>
+                                                <tspan x="29.7" y="20.4" class="st4 st9 st6">²</tspan>
+                                            <?php endif; ?>
                                         </text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[7]) ?>>
                                     <g id="b8">
-                                        <rect x="278.1" y="197.8" class="st7" width="69" height="139"/>
+                                        <rect x="278.1" y="197.8" class="st7" width="69" height="139"></rect>
                                         <text transform="matrix(1 0 0 1 294.7153 264.2185)" class="st8">
-                                            <tspan x="0" y="0" class="st4 st5 st6">Б8-</tspan>
-                                            <tspan x="0" y="20.4" class="st4 st5 st6">42м</tspan>
-                                            <tspan x="30" y="20.4" class="st4 st9 st6">²</tspan>
+                                            <tspan x="0" y="0" class="st4 st5 st6"><?= $secondFloorRooms[7]['name'] . $text = $secondFloorRooms[7]['status'] == Room::STATUS_FREE ? '-' : '' ?></tspan>
+                                            <?php if ($secondFloorRooms[6]['status'] == Room::STATUS_FREE): ?>
+                                                <tspan x="0" y="20.4" class="st4 st5 st6"><?= $secondFloorRooms[7]['area'] ?>м</tspan>
+                                                <tspan x="30" y="20.4" class="st4 st9 st6">²</tspan>
+                                            <?php endif; ?>
                                         </text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[8]) ?>>
                                     <g id="b9">
-                                        <rect x="416.7" y="0.9" class="st3" width="139" height="139"/>
-                                        <text transform="matrix(1 0 0 1 476.5662 75.3547)" class="st4 st5 st6">Б9</text>
+                                        <rect x="416.7" y="0.9" class="st3" width="139" height="139"></rect>
+                                        <text transform="matrix(1 0 0 1 476.5662 75.3547)" class="st4 st5 st6"><?= RoomHelper::getText($secondFloorRooms[8]) ?></text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[9]) ?>>
                                     <g id="b10">
-                                        <rect x="347.8" y="197.8" class="st3" width="139" height="139"/>
-                                        <text transform="matrix(1 0 0 1 401.6069 272.2185)" class="st4 st5 st6">Б10
-                                        </text>
+                                        <rect x="347.8" y="197.8" class="st3" width="139" height="139"></rect>
+                                        <text transform="matrix(1 0 0 1 401.6069 272.2185)" class="st4 st5 st6"><?= RoomHelper::getText($secondFloorRooms[9]) ?></text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[10]) ?>>
                                     <g id="b11">
-                                        <rect x="556.4" y="0.9" class="st3" width="34" height="139"/>
-                                        <text transform="matrix(1 0 0 1 561.9576 75.3545)" class="st4 st5 st6">Б11
-                                        </text>
+                                        <rect x="556.4" y="0.9" class="st3" width="34" height="139"></rect>
+                                        <text transform="matrix(1 0 0 1 561.9576 75.3545)" class="st4 st5 st6"><?= RoomHelper::getText($secondFloorRooms[10]) ?></text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[11]) ?>>
                                     <g id="b12">
-                                        <rect x="487.5" y="197.8" class="st3" width="69" height="139"/>
-                                        <text transform="matrix(1 0 0 1 508.786 272.2185)" class="st4 st5 st6">Б12
-                                        </text>
+                                        <rect x="487.5" y="197.8" class="st3" width="69" height="139"></rect>
+                                        <text transform="matrix(1 0 0 1 508.786 272.2185)" class="st4 st5 st6"><?= RoomHelper::getText($secondFloorRooms[11]) ?></text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[12]) ?>>
                                     <g id="b13">
-                                        <rect x="591.7" y="0.9" class="st7" width="69" height="139"/>
+                                        <rect x="591.7" y="0.9" class="st7" width="69" height="139"></rect>
                                         <text transform="matrix(1 0 0 1 608.0273 66.3547)" class="st8">
-                                            <tspan x="0" y="0" class="st4 st5 st6">Б13-</tspan>
-                                            <tspan x="0" y="20.4" class="st4 st5 st6">42м</tspan>
-                                            <tspan x="29.7" y="20.4" class="st4 st9 st6">²</tspan>
+                                            <tspan x="0" y="0" class="st4 st5 st6"><?= $secondFloorRooms[12]['name'] . $text = $secondFloorRooms[12]['status'] == Room::STATUS_FREE ? '-' : '' ?></tspan>
+                                            <?php if ($secondFloorRooms[12]['status'] == Room::STATUS_FREE): ?>
+                                                <tspan x="0" y="20.4" class="st4 st5 st6"><?= $secondFloorRooms[12]['area'] ?>м</tspan>
+                                                <tspan x="29.7" y="20.4" class="st4 st9 st6">²</tspan>
+                                            <?php endif; ?>
                                         </text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[13]) ?>>
                                     <g id="b14">
-                                        <rect x="556.9" y="197.8" class="st7" width="139" height="139"/>
+                                        <rect x="556.9" y="197.8" class="st7" width="139" height="139"></rect>
                                         <text transform="matrix(1 0 0 1 587.5837 272.2185)" class="st8">
-                                            <tspan x="0" y="0" class="st4 st5 st6">Б14-124м</tspan>
-                                            <tspan x="71.3" y="0" class="st4 st9 st6">²</tspan>
+                                            <tspan x="0" y="0" class="st4 st5 st6"><?= RoomHelper::getText($secondFloorRooms[13]) ?></tspan>
                                         </text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[14]) ?>>
                                     <g id="b15_1_">
-                                        <rect x="661.2" y="0.9" class="st7" width="69" height="139"/>
+                                        <rect x="661.2" y="0.9" class="st7" width="69" height="139"></rect>
                                         <text transform="matrix(1 0 0 1 677.5277 66.3547)" class="st8">
-                                            <tspan x="0" y="0" class="st4 st5 st6">Б15-</tspan>
-                                            <tspan x="0" y="20.4" class="st4 st5 st6">42м</tspan>
-                                            <tspan x="29.7" y="20.4" class="st4 st9 st6">²</tspan>
+                                            <tspan x="0" y="0" class="st4 st5 st6"><?= $secondFloorRooms[14]['name'] . $text = $secondFloorRooms[14]['status'] == Room::STATUS_FREE ? '-' : '' ?></tspan>
+                                            <?php if ($secondFloorRooms[14]['status'] == Room::STATUS_FREE): ?>
+                                                <tspan x="0" y="20.4" class="st4 st5 st6"><?= $secondFloorRooms[14]['area'] ?>м</tspan>
+                                                <tspan x="29.7" y="20.4" class="st4 st9 st6">²</tspan>
+                                            <?php endif; ?>
                                         </text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[15]) ?>>
                                     <g id="b16">
-                                        <rect x="696.7" y="197.8" class="st3" width="209" height="139"/>
-                                        <text transform="matrix(1 0 0 1 789.0121 272.2189)" class="st4 st5 st6">Б16
-                                        </text>
+                                        <rect x="696.7" y="197.8" class="st3" width="209" height="139"></rect>
+                                        <text transform="matrix(1 0 0 1 789.0121 272.2189)" class="st4 st5 st6"><?= RoomHelper::getText($secondFloorRooms[15]) ?></text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[16]) ?>>
                                     <g id="b17_1_">
-                                        <rect x="730.6" y="1" class="st7" width="34" height="139"/>
-                                        <text transform="matrix(1 0 0 1 731.2325 65.2547)" class="st4 st5 st6">Б17-
-                                        </text>
-                                        <text transform="matrix(1 0 0 1 731.2325 85.6547)" class="st4 st5 st6">21м
-                                        </text>
-                                        <text transform="matrix(1 0 0 1 757.9325 85.6547)" class="st4 st10 st6">²</text>
+                                        <rect x="730.6" y="1" class="st7" width="34" height="139"></rect>
+                                        <text transform="matrix(1 0 0 1 731.2325 65.2547)" class="st4 st5 st6"><?= $secondFloorRooms[16]['name'] . $text = $secondFloorRooms[16]['status'] == Room::STATUS_FREE ? '-' : '' ?></text>
+                                        <?php if ($secondFloorRooms[16]['status'] == Room::STATUS_FREE): ?>
+                                            <text transform="matrix(1 0 0 1 731.2325 85.6547)" class="st4 st5 st6"><?= $secondFloorRooms[16]['area'] ?>м</text>
+                                            <text transform="matrix(1 0 0 1 757.9325 85.6547)" class="st4 st10 st6">²</text>
+                                        <?php endif; ?>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[17]) ?>>
                                     <g id="b18_2_">
-                                        <rect x="765.1" y="0.9" class="st3" width="155" height="139"/>
-                                        <text transform="matrix(1 0 0 1 833.834 75.3546)" class="st4 st5 st6">Б18</text>
+                                        <rect x="765.1" y="0.9" class="st3" width="155" height="139"></rect>
+                                        <text transform="matrix(1 0 0 1 833.834 75.3546)" class="st4 st5 st6"><?= RoomHelper::getText($secondFloorRooms[17]) ?></text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[18]) ?>>
                                     <g id="b19_1_">
-                                        <rect x="906.4" y="197.8" class="st7" width="69" height="139"/>
-                                        <text transform="matrix(1 0 0 1 922.3451 262.119)" class="st4 st5 st6">Б19-
-                                        </text>
-                                        <text transform="matrix(1 0 0 1 922.3451 282.519)" class="st4 st5 st6">42м
-                                        </text>
-                                        <text transform="matrix(1 0 0 1 952.3451 282.519)" class="st4 st10 st6">²</text>
+                                        <rect x="906.4" y="197.8" class="st7" width="69" height="139"></rect>
+                                        <text transform="matrix(1 0 0 1 922.3451 262.119)" class="st4 st5 st6"><?= $secondFloorRooms[18]['name'] . $text = $secondFloorRooms[18]['status'] == Room::STATUS_FREE ? '-' : '' ?></text>
+                                        <?php if ($secondFloorRooms[18]['status'] == Room::STATUS_FREE): ?>
+                                            <text transform="matrix(1 0 0 1 922.3451 282.519)" class="st4 st5 st6"><?= $secondFloorRooms[18]['area'] ?>м</text>
+                                            <text transform="matrix(1 0 0 1 952.3451 282.519)" class="st4 st10 st6">²</text>
+                                        <?php endif; ?>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[19]) ?>>
                                     <g id="b20">
-                                        <rect x="991.7" y="1" class="st7" width="125" height="139"/>
-                                        <text transform="matrix(1 0 0 1 1015.7771 75.3946)" class="st4 st5 st6">
-                                            Б20-102м
-                                        </text>
+                                        <rect x="991.7" y="1" class="st7" width="125" height="139"></rect>
+                                        <text transform="matrix(1 0 0 1 1015.7771 75.3946)" class="st4 st5 st6"><?= RoomHelper::getText($secondFloorRooms[19]) ?></text>
                                     </g>
                                 </a>
-                                <a href="room.html" class="link-in-svg" data-href="room.html" tabindex="0">
+                                <a <?= RoomHelper::getTagOptions($secondFloorRooms[20]) ?>>
                                     <g id="b21">
-                                        <rect x="975.7" y="197.8" class="st3" width="141" height="139"/>
-                                        <text transform="matrix(1 0 0 1 1035.4119 272.2189)" class="st4 st5 st6">Б21
-                                        </text>
+                                        <rect x="975.7" y="197.8" class="st3" width="141" height="139"></rect>
+                                        <text transform="matrix(1 0 0 1 1035.4119 272.2189)" class="st4 st5 st6"><?= RoomHelper::getText($secondFloorRooms[20]) ?></text>
                                     </g>
                                 </a>
 							</svg>
@@ -882,7 +850,7 @@ use app\models\admin\Room;
                                     <g id="A8">
                                         <rect x="833.6" y="45.7" class="st4" width="39" height="93.5"></rect>
                                         <text transform="matrix(1 0 0 1 837.6904 77.0134)">
-                                            <tspan x="0" y="0" class="st1 st2 st3">А8<?= $firstFloorRooms[7]['status'] == Room::STATUS_FREE ? '-' : '' ?></tspan>
+                                            <tspan x="0" y="0" class="st1 st2 st3"><?= $firstFloorRooms[7]['name'] . $text = $firstFloorRooms[7]['status'] == Room::STATUS_FREE ? '-' : '' ?></tspan>
                                             <?php if ($firstFloorRooms[7]['status'] == Room::STATUS_FREE): ?>
                                                 <tspan x="0" y="20.4" class="st1 st2 st3"><?= $firstFloorRooms[7]['area'] ?></tspan>
                                                 <tspan x="0" y="40.8" class="st1 st2 st3">м</tspan>
@@ -985,29 +953,19 @@ use app\models\admin\Room;
                 <form action="mail.php" method="post">
                     <ul class="form-callback-list list-reset d-flex">
                         <li class="form-callback-item">
-                            <label for="name" class="visually-hidden">
-                                Имя
-                            </label>
+                            <label for="name" class="visually-hidden">Имя</label>
                             <input type="text" name="name" class="input" placeholder="Имя" id="name">
                         </li>
                         <li class="form-callback-item">
-                            <label for="phone" class="visually-hidden">
-                                Телефон
-                            </label>
-                            <input type="text" name="phone" data-mask="callback-catalog-phone" class="input"
-                                   placeholder="Номер" id="phone">
+                            <label for="phone" class="visually-hidden">Телефон</label>
+                            <input type="text" name="phone" data-mask="callback-catalog-phone" class="input" placeholder="Номер" id="phone">
                         </li>
                         <li class="form-callback-item">
                             <button type="submit" class="button">
                                 отправить
                                 <span class="icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11"
-                                             viewBox="0 0 11 11" fill="none"><g clip-path="url(#clip4)"><path
-                                                        d="M9.15139 5.4999L4.99091 1.33964C4.69193 1.04054 4.69193 0.555661 4.99091 0.256677C5.2899 -0.0424275 5.77475 -0.0424275 6.07385 0.256677L10.7759 4.95861C10.9254 5.10818 11 5.30399 11 5.4999C11 5.69589 10.9252 5.89184 10.7759 6.04134L6.07385 10.7432C5.77475 11.0425 5.28987 11.0425 4.99091 10.7432C4.69193 10.4442 4.69193 9.95932 4.99091 9.66036L9.15139 5.4999ZM0.224238 9.66036C-0.0747459 9.95934 -0.0747459 10.4443 0.224238 10.7432C0.523221 11.0425 1.00793 11.0425 1.3072 10.7432L6.00921 6.04136C6.1587 5.89187 6.23324 5.69591 6.23324 5.49993C6.23324 5.30402 6.15856 5.10806 6.00921 4.95864L1.3072 0.256677C1.00795 -0.0424275 0.523221 -0.0424275 0.224238 0.256677C-0.0747459 0.555661 -0.0747459 1.04051 0.224238 1.33964L4.38481 5.4999L0.224238 9.66036Z"
-                                                        fill="white"/></g><defs><clipPath id="clip4"><rect width="11"
-                                                                                                           height="11"
-                                                                                                           fill="white"/></clipPath></defs></svg>
-                                    </span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none"><g clip-path="url(#clip4)"><path d="M9.15139 5.4999L4.99091 1.33964C4.69193 1.04054 4.69193 0.555661 4.99091 0.256677C5.2899 -0.0424275 5.77475 -0.0424275 6.07385 0.256677L10.7759 4.95861C10.9254 5.10818 11 5.30399 11 5.4999C11 5.69589 10.9252 5.89184 10.7759 6.04134L6.07385 10.7432C5.77475 11.0425 5.28987 11.0425 4.99091 10.7432C4.69193 10.4442 4.69193 9.95932 4.99091 9.66036L9.15139 5.4999ZM0.224238 9.66036C-0.0747459 9.95934 -0.0747459 10.4443 0.224238 10.7432C0.523221 11.0425 1.00793 11.0425 1.3072 10.7432L6.00921 6.04136C6.1587 5.89187 6.23324 5.69591 6.23324 5.49993C6.23324 5.30402 6.15856 5.10806 6.00921 4.95864L1.3072 0.256677C1.00795 -0.0424275 0.523221 -0.0424275 0.224238 0.256677C-0.0747459 0.555661 -0.0747459 1.04051 0.224238 1.33964L4.38481 5.4999L0.224238 9.66036Z" fill="white"/></g><defs><clipPath id="clip4"><rect width="11" height="11" fill="white"/></clipPath></defs></svg>
+                                </span>
                             </button>
                         </li>
                     </ul>
