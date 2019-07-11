@@ -1397,6 +1397,16 @@ a:hover {
             transform: translate(0, -50%);
 }
 
+.free path,
+.free rect{
+    fill: #8FD58E!important;
+}
+
+.close rect,
+.close path{
+    fill: #C3C7CB!important;
+}
+
 @media only screen and (max-width: 1475px) {
     .container {
         width: 1200px;
@@ -2100,8 +2110,4 @@ a:hover {
     .slider-item-content-under-headline {
         font-size: 16px;
     }
-}
-.free path,
-.free rect{
-    fill: green;
 }

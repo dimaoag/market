@@ -68,8 +68,7 @@ use site\App;
                                 <div class="form-group has-feedback">
                                     <label for="area">Площадь</label>
                                     <input type="text" name="area" class="form-control" id="area" placeholder="Площадь" pattern="^\d*\.?\d*$"
-                                           value="<?= $room->area ?>"
-                                           required >
+                                           value="<?= $room->area ?>">
                                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                                     <div class="help-block with-errors"></div>
                                 </div>
