@@ -35,27 +35,6 @@ use site\App;
                                   data-remove_logo_photo_db_url="<?=ADMIN?>/room/delete-logo-image"
                             >
 
-                                <?php if (!$room->image): ?>
-                                    <div class="form-group has-feedback file-upload-wrap room-file-upload">
-                                        <label>Фото помещения  </label>
-                                        <small> рекомендованные размеры: (ширина - <?= App::$app->getProperty('room_img_width') ?>px; высота - <?= App::$app->getProperty('room_img_height') ?>px; ) </small>
-                                        <div class="upload" id="upload-room">
-
-                                        </div>
-                                    </div>
-                                <?php else: ?>
-                                    <div class="form-group">
-                                        <p><b>Фото помещения</b></p>
-                                        <div class="col-md-4 gallery-item">
-                                            <a href="<?= PATH ?>/upload/room/<?= $room->image ?>" target="blank">
-                                                <img src="<?= PATH ?>/upload/room/<?= $room->image ?>" class="img-responsive" alt="image"/>
-                                            </a>
-                                            <button type="button" class="btn btn-link remove_room_image" data-name="<?= $room->image ?>" data-id="<?= $room->id ?>">Удалить</button>
-                                        </div>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                <?php endif; ?>
-
                                 <div class="form-group has-feedback">
                                     <label for="name">Секция</label>
                                     <input type="text" name="name" class="form-control" id="name" placeholder="Секция"

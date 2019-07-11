@@ -33,7 +33,19 @@ class MainController extends AppController
 
     public function roomAction()
     {
+        /** @var $room Room */
+        $id = $_GET['id'] ? $_GET['id'] : null;
+        $room  = \R::findOne('room', 'id = ? ', [$id]);
 
+        if (!$id || !$room){
+            redirect(PATH . '/main/index');
+        }
+
+        $gallery = \R::find('gallery', 'room_id = ? ', [$room->id]);
+
+        $title = 'Помещение ' . $room->name;
+        $this->setMeta($title);
+        $this->setData(compact('room', 'gallery'));
     }
 
 

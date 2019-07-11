@@ -36,24 +36,20 @@
     <header class="header-site">
     <div class="container d-flex">
         <div class="logo-wrapper">
-            <img src="img/logo.svg" alt="Логотип Сайта">
+            <a href="/">
+                <img src="img/logo.svg" alt="Логотип Сайта">
+            </a>
         </div>
         <div class="main-menu">
             <ul class="main-menu-list list-reset d-flex">
                 <li class="main-menu-item">
-                    <a href="#order-room-anchor" class="main-menu-link anchor">
-                        Выбор помещения
-                    </a>
+                    <a href="#order-room-anchor" class="main-menu-link anchor">Выбор помещения</a>
                 </li>
                 <li class="main-menu-item">
-                    <a href="#question" class="main-menu-link anchor">
-                        Остались вопросы?
-                    </a>
+                    <a href="#question" class="main-menu-link anchor">Остались вопросы?</a>
                 </li>
                 <li class="main-menu-item">
-                    <a href="#map" class="main-menu-link anchor">
-                        Контакты
-                    </a>
+                    <a href="#map" class="main-menu-link anchor">Контакты</a>
                 </li>
             </ul>
         </div>
@@ -61,19 +57,13 @@
             <div class="phone-call-back">
                 <ul class="phone-call-back-main-list list-reset">
                     <li class="phone-call-back-drop">
-                        <a href="tel:0445995038">
-                            (044) 599-50-38
-                        </a>
+                        <a href="tel:0445995038">(044) 599-50-38</a>
                         <ul class="phone-list list-reset">
                             <li class="phone-item">
-                                <a href="tel:0445995038">
-                                    (044) 599-50-38
-                                </a>
+                                <a href="tel:0445995038">(044) 599-50-38</a>
                             </li>
                             <li class="phone-item">
-                                <a href="tel:0505072760">
-                                    (050) 507-27-60
-                                </a>
+                                <a href="tel:0505072760">(050) 507-27-60</a>
                             </li>
                         </ul>
                     </li>
@@ -97,48 +87,34 @@
             </div>
             <div class="map-right">
                 <div class="map-info">
-                    <h2 class="h2">
-                        Контакты
-                    </h2>
-                    <p class="map-info-description">
-                        Свяжитесь с нами любым удобным для Вас способом
-                    </p>
+                    <h2 class="h2">Контакты</h2>
+                    <p class="map-info-description">Свяжитесь с нами любым удобным для Вас способом</p>
                     <ul class="map-list list-reset">
                         <li>
                             <ul class="map-phone-list list-reset">
                                 <li class="map-phone-item">
                                     <p class="map-phone map-content">
-                                        <a href="tel:0445995038">
-                                            (044) 599-50-38
-                                        </a>
+                                        <a href="tel:0445995038">(044) 599-50-38</a>
                                     </p>
                                 </li>
                                 <li class="map-phone-item">
                                     <p class="map-phone map-content">
-                                        <a href="tel:0505072760">
-                                            (050) 507-27-60
-                                        </a>
+                                        <a href="tel:0505072760">(050) 507-27-60</a>
                                     </p>
                                 </li>
                             </ul>
                         </li>
                         <li>
                             <p class="map-mail map-content">
-                                <a href="mailto:beautifulmebli@gmail.com">
-                                    beautifulmebli@gmail.com
-                                </a>
+                                <a href="mailto:beautifulmebli@gmail.com">beautifulmebli@gmail.com</a>
                             </p>
                         </li>
                         <li>
-                            <p class="map-address map-content">
-                                г. Киев, бульвар Вацлава Гавела (Лепсе), 8
-                            </p>
+                            <p class="map-address map-content">г. Киев, бульвар Вацлава Гавела (Лепсе), 8</p>
                         </li>
                         <li>
                             <p class="map-social map-content">
-                                <a href="#" class="we-in-facebook">
-                                    Мы в Facebook
-                                </a>
+                                <a href="https://www.facebook.com/Beautiful-Mebli-1193250984156950/" class="we-in-facebook">Мы в Facebook</a>
                             </p>
                         </li>
                     </ul>
@@ -149,14 +125,10 @@
             <div class="footer-menu">
                 <ul class="main-menu-list list-reset d-flex">
                     <li class="main-menu-item">
-                        <a href="#order-room-anchor" class="main-menu-link anchor">
-                            Выбор помещения
-                        </a>
+                        <a href="#order-room-anchor" class="main-menu-link anchor">Выбор помещения</a>
                     </li>
                     <li class="main-menu-item">
-                        <a href="#question" class="main-menu-link anchor">
-                            Остались вопросы?
-                        </a>
+                        <a href="#question" class="main-menu-link anchor">Остались вопросы?</a>
                     </li>
                 </ul>
             </div>
@@ -164,9 +136,7 @@
                 <ul class="footer-social-list list-reset">
                     <li class="footer-social-item">
                         <p class="map-social map-content">
-                            <a href="#" class="we-in-facebook">
-                                Мы в Facebook
-                            </a>
+                            <a href="https://www.facebook.com/Beautiful-Mebli-1193250984156950/" class="we-in-facebook">Мы в Facebook</a>
                         </p>
                     </li>
                 </ul>

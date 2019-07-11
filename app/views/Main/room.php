@@ -1,82 +1,75 @@
 <?php
+/** @var $room app\models\admin\Room */
+/** @var $gallery app\models\admin\Gallery[] */
 
-
-?>
+use app\models\admin\Room; ?>
 
 <div class="container room-top-container">
     <div class="go-back">
-        <a href="index.html" class="back-link">
-                <span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="15" viewBox="0 0 28 15" fill="none"><rect width="26.9981" height="1.26554" rx="0.632768" transform="matrix(-1 0 0 1 27.3092 6.51123)" fill="#374454"/><rect width="10.1066" height="1.26554" rx="0.632768" transform="matrix(-0.70666 0.707553 0.707553 0.70666 7.14185 0)" fill="#374454"/><rect width="10.1066" height="1.26554" rx="0.632768" transform="matrix(0.707067 0.707146 0.707146 -0.707067 0.0234375 7.24963)" fill="#374454"/></svg>
-                </span>
+        <a href="<?= PATH ?>/main/index" class="back-link">
+            <span class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="15" viewBox="0 0 28 15" fill="none"><rect width="26.9981" height="1.26554" rx="0.632768" transform="matrix(-1 0 0 1 27.3092 6.51123)" fill="#374454"/><rect width="10.1066" height="1.26554" rx="0.632768" transform="matrix(-0.70666 0.707553 0.707553 0.70666 7.14185 0)" fill="#374454"/><rect width="10.1066" height="1.26554" rx="0.632768" transform="matrix(0.707067 0.707146 0.707146 -0.707067 0.0234375 7.24963)" fill="#374454"/></svg>
+            </span>
             Назад
         </a>
     </div>
     <section class="page-room-name">
-        <h1 class="h1">
-            Помещение а2
-        </h1>
+        <h1 class="h1">Помещение: <?= h($room->name) ?></h1>
     </section>
 </div>
 <div class="container all-about-page d-flex">
+    <?php if (!empty($gallery)): ?>
     <section class="room">
         <h2 class="visually-hidden">
             Галерея
         </h2>
         <div class="room-slider-wrapper">
             <div class="room-slider">
-                <div class="room-slider-item">
-                    <a data-fancybox="gallery" href="img/room-1.jpg">
-                        <img src="img/room-1.jpg" alt="Фото помещения">
-                    </a>
-                </div>
-                <div class="room-slider-item">
-                    <a data-fancybox="gallery" href="img/room-1.jpg">
-                        <img src="img/room-1.jpg" alt="Фото помещения">
-                    </a>
-                </div>
-                <div class="room-slider-item">
-                    <a data-fancybox="gallery" href="img/room-1.jpg">
-                        <img src="img/room-1.jpg" alt="Фото помещения">
-                    </a>
-                </div>
-                <div class="room-slider-item">
-                    <a data-fancybox="gallery" href="img/room-1.jpg">
-                        <img src="img/room-1.jpg" alt="Фото помещения">
-                    </a>
-                </div>
+                <?php foreach ($gallery as $item): ?>
+                    <div class="room-slider-item">
+                        <a data-fancybox="gallery" href="<?= PATH ?>/upload/gallery/<?= $item->image ?>">
+                            <img src="<?= PATH ?>/upload/gallery/<?= $item->image ?>" alt="<?= $item->image ?>">
+                        </a>
+                    </div>
+                <?php endforeach; ?>
             </div>
             <button type="button" class="slider-arrow room-prev slick-arrow">
-                    <span class="visually-hidden">
-                        Назад
-                    </span>
+                <span class="visually-hidden">
+                    Назад
+                </span>
             </button>
             <button type="button" class="slider-arrow room-next slick-arrow">
-                    <span class="visually-hidden">
-                        Вперед
-                    </span>
+                <span class="visually-hidden">
+                    Вперед
+                </span>
             </button>
         </div>
     </section>
+    <?php endif; ?>
     <section class="order-room-info">
         <div class="order-room-info-vd-wrapper">
-            <p class="order-image-wrapper">
-                <img src="img/order-logo.svg" width="183" height="184" alt="Логотип Арендодателя">
-            </p>
-            <p class="room-status status-free">
-                Свободное помещение
-            </p>
-            <p class="room-text-info">
-                Секция: А3
-            </p>
-            <p class="room-text-info">
-                Общая площадь: 126м²
+            <?php if (!empty($room->logo) && $room->status == Room::STATUS_BOOKED): ?>
+                <p class="order-image-wrapper">
+                    <img src="<?= PATH ?>/upload/logo/<?= $room->logo ?>"  alt="<?= $room->logo ?>">
+                </p>
+            <?php endif; ?>
+            <p class="room-status <?= $room->status == Room::STATUS_FREE ? 'status-free' : 'status-close'; ?>">
+                <?= $room->status == Room::STATUS_FREE ? 'Свободное помещение' : 'Занято'; ?>
             </p>
             <p class="room-text-info">
-                Этаж: 1
+                Секция: <?= h($room->name) ?>
+            </p>
+            <?php if (!empty($room->area) && $room->status == Room::STATUS_FREE): ?>
+                <p class="room-text-info">
+                    Общая площадь:  <?= h($room->area) ?>м²
+                </p>
+            <?php endif; ?>
+            <p class="room-text-info">
+                Этаж: <?= h($room->floor) ?>
             </p>
         </div>
-        <div class="order-room-info-form">
+        <?php if ($room->status == Room::STATUS_FREE): ?>
+            <div class="order-room-info-form">
             <form action="order.php" method="post">
                 <p class="how-mach">
                     узнать стоимость
@@ -107,14 +100,14 @@
                 </button>
             </form>
         </div>
+        <?php endif; ?>
+
     </section>
 </div>
 <section class="only-text">
     <div class="container">
         <article class="only-text-description">
-            <p>
-                XXLstudio - самая большая фотостудия в Киеве. Здесь Вы найдете все для качественной фотосъемки. Мы предлагаем воспользоваться нашими услугами потому что: <br> Впервые в Украине студии для фотосъемки оформлены с применением профессионального дизайнерского интерьера XXLstudio использует только высококачественное профессиональное оборудование Profoto <br> Интерьер наших помещений оформлен одной из ведущих дизайнерских студий в Украине <br> Воспользоваться фотостудиями можно 24 часа в сутки <br> Во всех помещениях есть кондиционеры и бесплатный WI-FI <br> У нас удобное месторасположение – рядом со станцией м. Берестейска <br> Комфортные современно меблированные залы ожидания <br> Доступна гримерная комната <br> Забронировать любую из наших студий можно on line на нашем сайте https://xxl-studio.ua/или по телефону 095) 227 01 11, (067) 596 01 11, (093) 951 01 11
-            </p>
+            <?= $room->description ?>
         </article>
     </div>
 </section>

@@ -1407,6 +1407,24 @@ a:hover {
     fill: #C3C7CB!important;
 }
 
+.floor-content {
+    position: relative;
+}
+
+.preview {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.preview {
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1475px) {
     .container {
         width: 1200px;

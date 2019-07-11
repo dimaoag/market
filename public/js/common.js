@@ -83,3 +83,12 @@ $(".link-in-svg").click(function(e) {
     e.preventDefault();
     location.href =  $(this).attr("data-href");
 });
+
+
+$(".preview").on("click", function() {
+    $(this).fadeOut();
+});
+
+$(".tabs-nav a").on("click", function(){
+    $(".preview").fadeOut();
+});

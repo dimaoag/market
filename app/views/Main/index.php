@@ -94,43 +94,31 @@ use app\models\admin\Room;
         </p>
         <div class="order-room-main d-flex" id="order-room-main">
             <div class="order-room-main-left">
-                <p class="floors-text">
-                    Этажи
-                </p>
+                <p class="floors-text">Этажи</p>
                 <ul class="tabs-nav">
                     <li>
                         <a href="#tab3">
-                               <span class="visually-hidden">
-                                   Первый этаж
-                               </span>
+                            <span class="visually-hidden">Первый этаж</span>
                             3
                         </a>
                     </li>
                     <li>
                         <a href="#tab2">
-                                <span class="visually-hidden">
-                                   Второй этаж
-                               </span>
+                            <span class="visually-hidden">Второй этаж</span>
                             2
                         </a>
                     </li>
                     <li class="active">
                         <a href="#tab1">
-                                <span class="visually-hidden">
-                                   Третий этаж
-                               </span>
+                            <span class="visually-hidden">Третий этаж</span>
                             1
                         </a>
                     </li>
                 </ul>
             </div>
             <div class="order-room-main-right">
-                <p class="order-free">
-                    Свободные помещения
-                </p>
-                <p class="order-bookings">
-                    Занятые помещения
-                </p>
+                <p class="order-free">Свободные помещения</p>
+                <p class="order-bookings">Занятые помещения</p>
                 <div class="tabs-content">
                     <div id="tab3" class="tab-item">
                         <div class="order-slider">
@@ -679,6 +667,9 @@ use app\models\admin\Room;
                     </div>
                     <div id="tab1" class="tab-item tabs-open">
                         <div class="floor-content">
+                            <div class="preview">
+                                <img src="/img/group-4.svg" width="1084" height="398" alt="Превю помещений">
+                            </div>
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 1252 339" xml:space="preserve" width="1252" height="337">
                             <style xmlns="http://www.w3.org/2000/svg" type="text/css">
                                 #tab1 .st0 {
