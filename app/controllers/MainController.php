@@ -31,6 +31,12 @@ class MainController extends AppController
 
 
 
+    public function roomAction()
+    {
+
+    }
+
+
 
     public function sendAction()
     {
