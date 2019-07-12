@@ -14,7 +14,11 @@ use app\models\admin\Room; ?>
         </a>
     </div>
     <section class="page-room-name">
-        <h1 class="h1">Помещение: <?= h($room->name) ?></h1>
+        <?php if ($room->status == Room::STATUS_BOOKED && !empty($room->company_name)): ?>
+            <h1 class="h1"><?= h($room->company_name) ?></h1>
+        <?php else: ?>
+            <h1 class="h1">Помещение: <?= h($room->name) ?></h1>
+        <?php endif; ?>
     </section>
 </div>
 <div class="container all-about-page d-flex">
