@@ -1433,6 +1433,17 @@ a:hover {
     outline-color: #cfc468;
 }
 
+.page-room-text {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    margin: 40px 0;
+}
+
+.thanks .h1 {
+  text-transform: uppercase;
+}
+
 @media only screen and (max-width: 1475px) {
     .container {
         width: 1200px;
@@ -1535,9 +1546,17 @@ a:hover {
     .order-room {
         margin: 100px 0;
     }
+
+    .page-room-text {
+        margin: 30px 0;
+    }
 }
 
 @media only screen and (max-width: 1199px) {
+
+    .page-room-text {
+        margin: 25px 0;
+    }
 
     .all-about-page {
         -ms-flex-wrap: wrap;
@@ -1842,6 +1861,11 @@ a:hover {
 }
 
 @media only screen and (max-width: 767px) {
+
+    .page-room-text {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
 
     .only-text {
         margin-bottom: 50px;

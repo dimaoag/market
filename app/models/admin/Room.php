@@ -111,7 +111,7 @@ class Room extends AppModel {
             $res = array("error" => "Enable extensions are:  .gif, .jpg, .png");
             exit(json_encode($res));
         }
-        $new_name = md5(time()).".$ext";
+        $new_name = md5(time() . rand(0, 100000)).".$ext";
         $uploadfile = $uploaddir.$new_name;
 
         if(@move_uploaded_file($_FILES[$name]['tmp_name'], $uploadfile)){

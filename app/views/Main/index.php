@@ -535,7 +535,12 @@ use app\models\admin\Room;
                                 <a <?= RoomHelper::getTagOptions($secondFloorRooms[5]) ?>>
                                     <g id="b6">
                                         <rect x="208.1" y="198" class="st3" width="69" height="139"></rect>
-                                        <text transform="matrix(1 0 0 1 232.8086 272.5459)" class="st4 st5 st6"><?= RoomHelper::getText($secondFloorRooms[5]) ?></text>
+                                        <text transform="matrix(1 0 0 1 232.8086 272.5459)">
+                                            <tspan x="0" y="0" class="st4 st5 st6"><?= $secondFloorRooms[5]['name'] . $text = $secondFloorRooms[5]['status'] == Room::STATUS_FREE ? '-' : '' ?></tspan>
+                                            <?php if ($secondFloorRooms[5]['status'] == Room::STATUS_FREE): ?>
+                                                <tspan x="0" y="20.4" class="st4 st5 st6"><?= $secondFloorRooms[5]['area'] ?>м²</tspan>
+                                            <?php endif; ?>
+                                        </text>
                                     </g>
                                 </a>
                                 <a <?= RoomHelper::getTagOptions($secondFloorRooms[6]) ?>>

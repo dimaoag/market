@@ -12,7 +12,10 @@
             Назад
         </a>
     </div>
-    <section class="page-room-name">
-        <h1 class="h1">Спасибо за...</h1>
+    <section class="page-room-name thanks">
+        <h1 class="h1">спасибо</h1>
+        <p class="page-room-text">
+        	В ближайшее время наш менеджер Вам перезвонит и сообщит стоимость.
+        </p>
     </section>
 </div>
