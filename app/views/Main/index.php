@@ -37,7 +37,7 @@ use app\models\admin\Room;
             </div>
             <div class="slider">
                 <div class="slider-item">
-                    <div class="slider-image" style="background-image: url('img/2.jpg')">
+                    <div class="slider-image" style="background-image: url('img/slide_1.jpg')">
                         <p class="slider-image-description">
                             В подарок крутейшие соседи: лучшие фотостудии, фуд-корты, танцевальные школы, магазины
                             одежды, продуктовый монополист и тд.
@@ -45,7 +45,7 @@ use app\models\admin\Room;
                     </div>
                 </div>
                 <div class="slider-item">
-                    <div class="slider-image" style="background-image: url('img/2.jpg')">
+                    <div class="slider-image" style="background-image: url('img/slide_2.jpg')">
                         <p class="slider-image-description">
                             В подарок крутейшие соседи: лучшие фотостудии, фуд-корты, танцевальные школы, магазины
                             одежды, продуктовый монополист и тд.
@@ -53,7 +53,7 @@ use app\models\admin\Room;
                     </div>
                 </div>
                 <div class="slider-item">
-                    <div class="slider-image" style="background-image: url('img/2.jpg')">
+                    <div class="slider-image" style="background-image: url('img/slide_4.jpg')">
                         <p class="slider-image-description">
                             В подарок крутейшие соседи: лучшие фотостудии, фуд-корты, танцевальные школы, магазины
                             одежды, продуктовый монополист и тд.
@@ -61,7 +61,7 @@ use app\models\admin\Room;
                     </div>
                 </div>
                 <div class="slider-item">
-                    <div class="slider-image" style="background-image: url('img/2.jpg')">
+                    <div class="slider-image" style="background-image: url('img/slide_3.jpg')">
                         <p class="slider-image-description">
                             В подарок крутейшие соседи: лучшие фотостудии, фуд-корты, танцевальные школы, магазины
                             одежды, продуктовый монополист и тд.
@@ -862,15 +862,15 @@ use app\models\admin\Room;
                 Вам перезвонят.
             </p>
             <div class="form-callback-form-wrapper">
-                <form action="mail.php" method="post">
+                <form action="<?= PATH ?>/main/send" method="post">
                     <ul class="form-callback-list list-reset d-flex">
                         <li class="form-callback-item">
                             <label for="name" class="visually-hidden">Имя</label>
-                            <input type="text" name="name" class="input" placeholder="Имя" id="name">
+                            <input type="text" name="username" class="input" placeholder="Имя" id="name" required>
                         </li>
                         <li class="form-callback-item">
                             <label for="phone" class="visually-hidden">Телефон</label>
-                            <input type="text" name="phone" data-mask="callback-catalog-phone" class="input" placeholder="Номер" id="phone">
+                            <input type="text" name="phone" data-mask="callback-catalog-phone" class="input" placeholder="Номер" id="phone" required>
                         </li>
                         <li class="form-callback-item">
                             <button type="submit" class="button">

@@ -54,25 +54,20 @@ class MainController extends AppController
     {
         if (!empty($_POST)){
 
-            $services = '';
             $username = $_POST['username'] ? trim(htmlspecialchars($_POST['username'])) : null;
             $phone = $_POST['phone'] ? trim(htmlspecialchars(str_replace(" ", "", $_POST['phone']))) : null;
-            $email = $_POST['email'] ? htmlspecialchars($_POST['email']) : null;
-            if (isset($_POST['service_name'])) {
-                foreach ($_POST['service_name'] as $key => $value){
-                    $services .= htmlspecialchars($value) . ', ';
-                }
-            }
 
+            if (isset($_POST['room_name'])) {
+                $room_name = htmlspecialchars($_POST['room_name']);
+            }
 
             $messageText = '
                     <h1>Новая заявка</h1>
                     <p><b>Имя </b> - '. $username .' </p>
-                    <p><b>Телефон </b> - '. $phone .' </p>
-                    <p><b>Email </b> - '. $email .' </p>';
+                    <p><b>Телефон </b> - '. $phone .' </p>';
 
-            if ($services){
-                $messageText .= '<p><b>Типы услуг: </b> - ' . $services .' </p> ';
+            if (isset($room_name)){
+                $messageText .= '<p><b>Название помещения: </b> - ' . $room_name .' </p> ';
             }
 
             // Create the Transport
@@ -95,13 +90,13 @@ class MainController extends AppController
             $result = $mailer->send($message);
 
 
-            if ($result){
-                echo json_encode(['success' => 1]);
-                die();
-            }
+//            if ($result){
+//                echo json_encode(['success' => 1]);
+//                die();
+//            }
 
         }
-        redirect();
+        redirect(PATH . '/main/thanks');
     }
 
 
