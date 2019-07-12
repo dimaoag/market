@@ -13,17 +13,16 @@ class MainController extends AppController
 
     public function indexAction()
     {
-
         $firstFloorRooms = \R::getAll("SELECT * FROM room WHERE floor = ? ORDER BY id", [Room::FLOOR_ONE]);
         $secondFloorRooms = \R::getAll("SELECT * FROM room WHERE floor = ? ORDER BY id", [Room::FLOOR_TWO]);
         $thirdFloorRooms = \R::getAll("SELECT * FROM room WHERE floor = ? ORDER BY id", [Room::FLOOR_THREE]);
 
 
-        $title = 'Главная';
-        $description = 'Description';
-        $keywords = '';
-
-
+        $title = 'Субаренда помещений в Бизнес-центре | г. Киев Бульвар Вацлава Гавела 8';
+        $description = 'Выбери любую площадь для своего бизнеса. В подарок крутейшие соседи: лучшие студии, магазины, фуд-корты. Посмотри фото и параметры каждой комнаты на сайте!';
+        $keywords = 'аренда киев, аренда без посредников киев, аренда недвижимости киев,
+        аренда помещений в киеве, аренда коммерческой недвижимости киев, 
+        аренда помещение магазин , киев аренда в тц, аренда площади в тц, аренда торговой площади в тц, аренда островка в тц';
 
         $this->setMeta($title, $description, $keywords);
         $this->setData(compact('firstFloorRooms', 'secondFloorRooms', 'thirdFloorRooms'));

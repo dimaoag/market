@@ -9,7 +9,6 @@
     <?= $this->getMeta(); ?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
     <!-- Template Basic Images Start -->
     <meta property="og:image" content="path/to/image.jpg">
     <link rel="icon" href="img/favicon/favicon.ico">

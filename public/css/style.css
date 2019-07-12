@@ -615,7 +615,7 @@ a:hover {
 }
 
 .order-room {
-    padding: 143px 0;
+    margin: 143px 0;
 }
 
 .order-description {
@@ -924,7 +924,7 @@ a:hover {
 .map-info {
     right: 0;
     bottom: 0;
-    padding: 205px 20.8% 128px 9%;
+    padding: 180px 20.8% 128px 9%;
     background-color: #ffffff;
 }
 
@@ -1036,7 +1036,7 @@ a:hover {
 }
 
 .site-footer {
-    padding-top: 70px;
+    padding-top: 0;
     padding-bottom: 50px;
 }
 
@@ -1367,7 +1367,7 @@ a:hover {
 }
 
 .only-text {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .only-text-description {
@@ -1423,6 +1423,14 @@ a:hover {
 
 .preview {
     cursor: pointer;
+}
+
+.footer-single-container {
+    margin-top: 70px;
+}
+
+.input:focus {
+    outline-color: #cfc468;
 }
 
 @media only screen and (max-width: 1475px) {
@@ -1516,12 +1524,16 @@ a:hover {
     }
 
     .site-footer {
-        padding-top: 35px;
+        padding-top: 0;
         padding-bottom: 40px;
     }
 
+    .footer-single-container {
+        margin-top: 35px;
+    }
+
     .order-room {
-        padding: 100px 0;
+        margin: 100px 0;
     }
 }
 
@@ -1598,9 +1610,17 @@ a:hover {
         font-size: 50px;
     }
 
+    .map-info {
+        padding: 130px 20.8% 85px 9%;
+    }
+
 }
 
 @media only screen and (max-width: 991px) {
+
+    .preview  {
+        display: none;
+    }
 
     .order-room-info-vd-wrapper {
         width: 300px;
@@ -1913,9 +1933,25 @@ a:hover {
     .tabs-nav li:last-child {
         margin-right: 0;
     }
+
+    .site-footer {
+        padding-top: 0;
+    }
 }
 
 @media only screen and (max-width: 576px) {
+
+    .room-top-container {
+        margin-top: 0;
+    }
+
+    .footer-single-container {
+        margin-top: 0;
+    }
+
+    .slider-item-content {
+        padding-top: 15px;
+    }
 
     .order-room-info {
         -webkit-box-orient: vertical;
@@ -2059,7 +2095,7 @@ a:hover {
     }
 
     .order-room {
-        padding: 40px 0;
+        margin: 40px 0;
     }
 
     .slider-item-content-under-headline {
