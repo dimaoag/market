@@ -28,6 +28,21 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
 
+
+    <meta name="yandex-verification" content="563bd1e501bca9af" />
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143601367-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-143601367-1');
+    </script>
+
+
 </head>
 
 <body>
